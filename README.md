@@ -18,6 +18,14 @@ Six retouches en profondeur ont été corrigées pour retirer les boutons encore
 
 [Les trois essais violets en JPEG ZIP](https://github.com/Faresclt/galerie-axelle/releases/download/photos-v1/axelle-essais-violets.zip).
 
+## Expressions naturelles
+
+L’essai DSC05504 a été refusé par le générateur ; les versions précédentes restent disponibles.
+
+Des essais supplémentaires détendent la bouche et le regard sur DSC05275, DSC05473 et DSC05488, avec priorité à la ressemblance. Ils restent séparés des retouches précédentes et sont accessibles via le filtre « Expression naturelle ». Comme toute édition générative, ils peuvent modifier de petits détails ; comparer avant de choisir.
+
+[Expressions naturelles en JPEG ZIP](https://github.com/Faresclt/galerie-axelle/releases/download/photos-v1/axelle-expressions-naturelles.zip).
+
 ## Téléchargements et limites
 
 - [Les 74 originaux en ZIP](https://github.com/Faresclt/galerie-axelle/releases/download/photos-v1/axelle-74-originaux.zip).
