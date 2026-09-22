@@ -357,34 +357,43 @@ window.AXELLE_PHOTOS = [
     "id": 28,
     "title": "DSC05497",
     "orientation": "L",
-    "retouchStatus": "pending",
+    "retouchStatus": "ready",
     "original": {
       "src": "photos/originals/DSC05497.jpg",
       "filename": "DSC05497-original.jpg"
     },
-    "edited": null
+    "edited": {
+      "src": "photos/edited/DSC05497-retouche.jpg",
+      "filename": "DSC05497-retouche.jpg"
+    }
   },
   {
     "id": 29,
     "title": "DSC05489",
     "orientation": "L",
-    "retouchStatus": "pending",
+    "retouchStatus": "ready",
     "original": {
       "src": "photos/originals/DSC05489.jpg",
       "filename": "DSC05489-original.jpg"
     },
-    "edited": null
+    "edited": {
+      "src": "photos/edited/DSC05489-retouche.jpg",
+      "filename": "DSC05489-retouche.jpg"
+    }
   },
   {
     "id": 30,
     "title": "DSC05488",
     "orientation": "L",
-    "retouchStatus": "pending",
+    "retouchStatus": "ready",
     "original": {
       "src": "photos/originals/DSC05488.jpg",
       "filename": "DSC05488-original.jpg"
     },
-    "edited": null
+    "edited": {
+      "src": "photos/edited/DSC05488-retouche.jpg",
+      "filename": "DSC05488-retouche.jpg"
+    }
   },
   {
     "id": 31,
@@ -404,473 +413,602 @@ window.AXELLE_PHOTOS = [
     "id": 32,
     "title": "DSC05478",
     "orientation": "P",
-    "retouchStatus": "pending",
+    "retouchStatus": "ready",
     "original": {
       "src": "photos/originals/DSC05478.jpg",
       "filename": "DSC05478-original.jpg"
     },
-    "edited": null
+    "edited": {
+      "src": "photos/edited/DSC05478-retouche.jpg",
+      "filename": "DSC05478-retouche.jpg"
+    }
   },
   {
     "id": 33,
     "title": "DSC05475",
     "orientation": "L",
-    "retouchStatus": "pending",
+    "retouchStatus": "ready",
     "original": {
       "src": "photos/originals/DSC05475.jpg",
       "filename": "DSC05475-original.jpg"
     },
-    "edited": null
+    "edited": {
+      "src": "photos/edited/DSC05475-retouche.jpg",
+      "filename": "DSC05475-retouche.jpg"
+    }
   },
   {
     "id": 34,
     "title": "DSC05473",
     "orientation": "P",
-    "retouchStatus": "pending",
+    "retouchStatus": "ready",
     "original": {
       "src": "photos/originals/DSC05473.jpg",
       "filename": "DSC05473-original.jpg"
     },
-    "edited": null
+    "edited": {
+      "src": "photos/edited/DSC05473-retouche.jpg",
+      "filename": "DSC05473-retouche.jpg"
+    }
   },
   {
     "id": 35,
     "title": "DSC05448",
     "orientation": "P",
-    "retouchStatus": "pending",
+    "retouchStatus": "ready",
     "original": {
       "src": "photos/originals/DSC05448.jpg",
       "filename": "DSC05448-original.jpg"
     },
-    "edited": null
+    "edited": {
+      "src": "photos/edited/DSC05448-retouche.jpg",
+      "filename": "DSC05448-retouche.jpg"
+    }
   },
   {
     "id": 36,
     "title": "DSC05426",
     "orientation": "L",
-    "retouchStatus": "pending",
+    "retouchStatus": "ready",
     "original": {
       "src": "photos/originals/DSC05426.jpg",
       "filename": "DSC05426-original.jpg"
     },
-    "edited": null
+    "edited": {
+      "src": "photos/edited/DSC05426-retouche.jpg",
+      "filename": "DSC05426-retouche.jpg"
+    }
   },
   {
     "id": 37,
     "title": "DSC05419",
     "orientation": "L",
-    "retouchStatus": "pending",
+    "retouchStatus": "ready",
     "original": {
       "src": "photos/originals/DSC05419.jpg",
       "filename": "DSC05419-original.jpg"
     },
-    "edited": null
+    "edited": {
+      "src": "photos/edited/DSC05419-retouche.jpg",
+      "filename": "DSC05419-retouche.jpg"
+    }
   },
   {
     "id": 38,
     "title": "DSC05418",
     "orientation": "P",
-    "retouchStatus": "pending",
+    "retouchStatus": "ready",
     "original": {
       "src": "photos/originals/DSC05418.jpg",
       "filename": "DSC05418-original.jpg"
     },
-    "edited": null
+    "edited": {
+      "src": "photos/edited/DSC05418-retouche.jpg",
+      "filename": "DSC05418-retouche.jpg"
+    }
   },
   {
     "id": 39,
     "title": "DSC05415",
     "orientation": "P",
-    "retouchStatus": "pending",
+    "retouchStatus": "ready",
     "original": {
       "src": "photos/originals/DSC05415.jpg",
       "filename": "DSC05415-original.jpg"
     },
-    "edited": null
+    "edited": {
+      "src": "photos/edited/DSC05415-retouche.jpg",
+      "filename": "DSC05415-retouche.jpg"
+    }
   },
   {
     "id": 40,
     "title": "DSC05412",
     "orientation": "P",
-    "retouchStatus": "pending",
+    "retouchStatus": "ready",
     "original": {
       "src": "photos/originals/DSC05412.jpg",
       "filename": "DSC05412-original.jpg"
     },
-    "edited": null
+    "edited": {
+      "src": "photos/edited/DSC05412-retouche.jpg",
+      "filename": "DSC05412-retouche.jpg"
+    }
   },
   {
     "id": 41,
     "title": "DSC05411",
     "orientation": "P",
-    "retouchStatus": "pending",
+    "retouchStatus": "ready",
     "original": {
       "src": "photos/originals/DSC05411.jpg",
       "filename": "DSC05411-original.jpg"
     },
-    "edited": null
+    "edited": {
+      "src": "photos/edited/DSC05411-retouche.jpg",
+      "filename": "DSC05411-retouche.jpg"
+    }
   },
   {
     "id": 42,
     "title": "DSC05408",
     "orientation": "L",
-    "retouchStatus": "pending",
+    "retouchStatus": "ready",
     "original": {
       "src": "photos/originals/DSC05408.jpg",
       "filename": "DSC05408-original.jpg"
     },
-    "edited": null
+    "edited": {
+      "src": "photos/edited/DSC05408-retouche.jpg",
+      "filename": "DSC05408-retouche.jpg"
+    }
   },
   {
     "id": 43,
     "title": "DSC05406",
     "orientation": "P",
-    "retouchStatus": "pending",
+    "retouchStatus": "ready",
     "original": {
       "src": "photos/originals/DSC05406.jpg",
       "filename": "DSC05406-original.jpg"
     },
-    "edited": null
+    "edited": {
+      "src": "photos/edited/DSC05406-retouche.jpg",
+      "filename": "DSC05406-retouche.jpg"
+    }
   },
   {
     "id": 44,
     "title": "DSC05405",
     "orientation": "P",
-    "retouchStatus": "pending",
+    "retouchStatus": "ready",
     "original": {
       "src": "photos/originals/DSC05405.jpg",
       "filename": "DSC05405-original.jpg"
     },
-    "edited": null
+    "edited": {
+      "src": "photos/edited/DSC05405-retouche.jpg",
+      "filename": "DSC05405-retouche.jpg"
+    }
   },
   {
     "id": 45,
     "title": "DSC05400",
     "orientation": "P",
-    "retouchStatus": "pending",
+    "retouchStatus": "ready",
     "original": {
       "src": "photos/originals/DSC05400.jpg",
       "filename": "DSC05400-original.jpg"
     },
-    "edited": null
+    "edited": {
+      "src": "photos/edited/DSC05400-retouche.jpg",
+      "filename": "DSC05400-retouche.jpg"
+    }
   },
   {
     "id": 46,
     "title": "DSC05396",
     "orientation": "P",
-    "retouchStatus": "pending",
+    "retouchStatus": "ready",
     "original": {
       "src": "photos/originals/DSC05396.jpg",
       "filename": "DSC05396-original.jpg"
     },
-    "edited": null
+    "edited": {
+      "src": "photos/edited/DSC05396-retouche.jpg",
+      "filename": "DSC05396-retouche.jpg"
+    }
   },
   {
     "id": 47,
     "title": "DSC05392",
     "orientation": "P",
-    "retouchStatus": "pending",
+    "retouchStatus": "ready",
     "original": {
       "src": "photos/originals/DSC05392.jpg",
       "filename": "DSC05392-original.jpg"
     },
-    "edited": null
+    "edited": {
+      "src": "photos/edited/DSC05392-retouche.jpg",
+      "filename": "DSC05392-retouche.jpg"
+    }
   },
   {
     "id": 48,
     "title": "DSC05385",
     "orientation": "P",
-    "retouchStatus": "pending",
+    "retouchStatus": "ready",
     "original": {
       "src": "photos/originals/DSC05385.jpg",
       "filename": "DSC05385-original.jpg"
     },
-    "edited": null
+    "edited": {
+      "src": "photos/edited/DSC05385-retouche.jpg",
+      "filename": "DSC05385-retouche.jpg"
+    }
   },
   {
     "id": 49,
     "title": "DSC05384",
     "orientation": "P",
-    "retouchStatus": "pending",
+    "retouchStatus": "ready",
     "original": {
       "src": "photos/originals/DSC05384.jpg",
       "filename": "DSC05384-original.jpg"
     },
-    "edited": null
+    "edited": {
+      "src": "photos/edited/DSC05384-retouche.jpg",
+      "filename": "DSC05384-retouche.jpg"
+    }
   },
   {
     "id": 50,
     "title": "DSC05382",
     "orientation": "P",
-    "retouchStatus": "pending",
+    "retouchStatus": "ready",
     "original": {
       "src": "photos/originals/DSC05382.jpg",
       "filename": "DSC05382-original.jpg"
     },
-    "edited": null
+    "edited": {
+      "src": "photos/edited/DSC05382-retouche.jpg",
+      "filename": "DSC05382-retouche.jpg"
+    }
   },
   {
     "id": 51,
     "title": "DSC05380",
     "orientation": "P",
-    "retouchStatus": "pending",
+    "retouchStatus": "ready",
     "original": {
       "src": "photos/originals/DSC05380.jpg",
       "filename": "DSC05380-original.jpg"
     },
-    "edited": null
+    "edited": {
+      "src": "photos/edited/DSC05380-retouche.jpg",
+      "filename": "DSC05380-retouche.jpg"
+    }
   },
   {
     "id": 52,
     "title": "DSC05377",
     "orientation": "P",
-    "retouchStatus": "pending",
+    "retouchStatus": "ready",
     "original": {
       "src": "photos/originals/DSC05377.jpg",
       "filename": "DSC05377-original.jpg"
     },
-    "edited": null
+    "edited": {
+      "src": "photos/edited/DSC05377-retouche.jpg",
+      "filename": "DSC05377-retouche.jpg"
+    }
   },
   {
     "id": 53,
     "title": "DSC05348",
     "orientation": "P",
-    "retouchStatus": "pending",
+    "retouchStatus": "ready",
     "original": {
       "src": "photos/originals/DSC05348.jpg",
       "filename": "DSC05348-original.jpg"
     },
-    "edited": null
+    "edited": {
+      "src": "photos/edited/DSC05348-retouche.jpg",
+      "filename": "DSC05348-retouche.jpg"
+    }
   },
   {
     "id": 54,
     "title": "DSC05347",
     "orientation": "P",
-    "retouchStatus": "pending",
+    "retouchStatus": "ready",
     "original": {
       "src": "photos/originals/DSC05347.jpg",
       "filename": "DSC05347-original.jpg"
     },
-    "edited": null
+    "edited": {
+      "src": "photos/edited/DSC05347-retouche.jpg",
+      "filename": "DSC05347-retouche.jpg"
+    }
   },
   {
     "id": 55,
     "title": "DSC05339",
     "orientation": "P",
-    "retouchStatus": "pending",
+    "retouchStatus": "ready",
     "original": {
       "src": "photos/originals/DSC05339.jpg",
       "filename": "DSC05339-original.jpg"
     },
-    "edited": null
+    "edited": {
+      "src": "photos/edited/DSC05339-retouche.jpg",
+      "filename": "DSC05339-retouche.jpg"
+    }
   },
   {
     "id": 56,
     "title": "DSC05331",
     "orientation": "P",
-    "retouchStatus": "pending",
+    "retouchStatus": "ready",
     "original": {
       "src": "photos/originals/DSC05331.jpg",
       "filename": "DSC05331-original.jpg"
     },
-    "edited": null
+    "edited": {
+      "src": "photos/edited/DSC05331-retouche.jpg",
+      "filename": "DSC05331-retouche.jpg"
+    }
   },
   {
     "id": 57,
     "title": "DSC05328",
     "orientation": "P",
-    "retouchStatus": "pending",
+    "retouchStatus": "ready",
     "original": {
       "src": "photos/originals/DSC05328.jpg",
       "filename": "DSC05328-original.jpg"
     },
-    "edited": null
+    "edited": {
+      "src": "photos/edited/DSC05328-retouche.jpg",
+      "filename": "DSC05328-retouche.jpg"
+    }
   },
   {
     "id": 58,
     "title": "DSC05322",
     "orientation": "P",
-    "retouchStatus": "pending",
+    "retouchStatus": "ready",
     "original": {
       "src": "photos/originals/DSC05322.jpg",
       "filename": "DSC05322-original.jpg"
     },
-    "edited": null
+    "edited": {
+      "src": "photos/edited/DSC05322-retouche.jpg",
+      "filename": "DSC05322-retouche.jpg"
+    }
   },
   {
     "id": 59,
     "title": "DSC05316",
     "orientation": "P",
-    "retouchStatus": "pending",
+    "retouchStatus": "ready",
     "original": {
       "src": "photos/originals/DSC05316.jpg",
       "filename": "DSC05316-original.jpg"
     },
-    "edited": null
+    "edited": {
+      "src": "photos/edited/DSC05316-retouche.jpg",
+      "filename": "DSC05316-retouche.jpg"
+    }
   },
   {
     "id": 60,
     "title": "DSC05305",
     "orientation": "P",
-    "retouchStatus": "pending",
+    "retouchStatus": "ready",
     "original": {
       "src": "photos/originals/DSC05305.jpg",
       "filename": "DSC05305-original.jpg"
     },
-    "edited": null
+    "edited": {
+      "src": "photos/edited/DSC05305-retouche.jpg",
+      "filename": "DSC05305-retouche.jpg"
+    }
   },
   {
     "id": 61,
     "title": "DSC05300",
     "orientation": "L",
-    "retouchStatus": "pending",
+    "retouchStatus": "ready",
     "original": {
       "src": "photos/originals/DSC05300.jpg",
       "filename": "DSC05300-original.jpg"
     },
-    "edited": null
+    "edited": {
+      "src": "photos/edited/DSC05300-retouche.jpg",
+      "filename": "DSC05300-retouche.jpg"
+    }
   },
   {
     "id": 62,
     "title": "DSC05298",
     "orientation": "L",
-    "retouchStatus": "pending",
+    "retouchStatus": "ready",
     "original": {
       "src": "photos/originals/DSC05298.jpg",
       "filename": "DSC05298-original.jpg"
     },
-    "edited": null
+    "edited": {
+      "src": "photos/edited/DSC05298-retouche.jpg",
+      "filename": "DSC05298-retouche.jpg"
+    }
   },
   {
     "id": 63,
     "title": "DSC05291",
     "orientation": "L",
-    "retouchStatus": "pending",
+    "retouchStatus": "ready",
     "original": {
       "src": "photos/originals/DSC05291.jpg",
       "filename": "DSC05291-original.jpg"
     },
-    "edited": null
+    "edited": {
+      "src": "photos/edited/DSC05291-retouche.jpg",
+      "filename": "DSC05291-retouche.jpg"
+    }
   },
   {
     "id": 64,
     "title": "DSC05288",
     "orientation": "L",
-    "retouchStatus": "pending",
+    "retouchStatus": "ready",
     "original": {
       "src": "photos/originals/DSC05288.jpg",
       "filename": "DSC05288-original.jpg"
     },
-    "edited": null
+    "edited": {
+      "src": "photos/edited/DSC05288-retouche.jpg",
+      "filename": "DSC05288-retouche.jpg"
+    }
   },
   {
     "id": 65,
     "title": "DSC05275",
     "orientation": "P",
-    "retouchStatus": "pending",
+    "retouchStatus": "ready",
     "original": {
       "src": "photos/originals/DSC05275.jpg",
       "filename": "DSC05275-original.jpg"
     },
-    "edited": null
+    "edited": {
+      "src": "photos/edited/DSC05275-retouche.jpg",
+      "filename": "DSC05275-retouche.jpg"
+    }
   },
   {
     "id": 66,
     "title": "DSC05272",
     "orientation": "P",
-    "retouchStatus": "pending",
+    "retouchStatus": "ready",
     "original": {
       "src": "photos/originals/DSC05272.jpg",
       "filename": "DSC05272-original.jpg"
     },
-    "edited": null
+    "edited": {
+      "src": "photos/edited/DSC05272-retouche.jpg",
+      "filename": "DSC05272-retouche.jpg"
+    }
   },
   {
     "id": 67,
     "title": "DSC05269",
     "orientation": "P",
-    "retouchStatus": "pending",
+    "retouchStatus": "ready",
     "original": {
       "src": "photos/originals/DSC05269.jpg",
       "filename": "DSC05269-original.jpg"
     },
-    "edited": null
+    "edited": {
+      "src": "photos/edited/DSC05269-retouche.jpg",
+      "filename": "DSC05269-retouche.jpg"
+    }
   },
   {
     "id": 68,
     "title": "DSC05264",
     "orientation": "P",
-    "retouchStatus": "pending",
+    "retouchStatus": "ready",
     "original": {
       "src": "photos/originals/DSC05264.jpg",
       "filename": "DSC05264-original.jpg"
     },
-    "edited": null
+    "edited": {
+      "src": "photos/edited/DSC05264-retouche.jpg",
+      "filename": "DSC05264-retouche.jpg"
+    }
   },
   {
     "id": 69,
     "title": "DSC05261",
     "orientation": "P",
-    "retouchStatus": "pending",
+    "retouchStatus": "ready",
     "original": {
       "src": "photos/originals/DSC05261.jpg",
       "filename": "DSC05261-original.jpg"
     },
-    "edited": null
+    "edited": {
+      "src": "photos/edited/DSC05261-retouche.jpg",
+      "filename": "DSC05261-retouche.jpg"
+    }
   },
   {
     "id": 70,
     "title": "DSC05259",
     "orientation": "P",
-    "retouchStatus": "pending",
+    "retouchStatus": "ready",
     "original": {
       "src": "photos/originals/DSC05259.jpg",
       "filename": "DSC05259-original.jpg"
     },
-    "edited": null
+    "edited": {
+      "src": "photos/edited/DSC05259-retouche.jpg",
+      "filename": "DSC05259-retouche.jpg"
+    }
   },
   {
     "id": 71,
     "title": "DSC05250",
     "orientation": "P",
-    "retouchStatus": "pending",
+    "retouchStatus": "ready",
     "original": {
       "src": "photos/originals/DSC05250.jpg",
       "filename": "DSC05250-original.jpg"
     },
-    "edited": null
+    "edited": {
+      "src": "photos/edited/DSC05250-retouche.jpg",
+      "filename": "DSC05250-retouche.jpg"
+    }
   },
   {
     "id": 72,
     "title": "DSC05245",
     "orientation": "P",
-    "retouchStatus": "pending",
+    "retouchStatus": "ready",
     "original": {
       "src": "photos/originals/DSC05245.jpg",
       "filename": "DSC05245-original.jpg"
     },
-    "edited": null
+    "edited": {
+      "src": "photos/edited/DSC05245-retouche.jpg",
+      "filename": "DSC05245-retouche.jpg"
+    }
   },
   {
     "id": 73,
     "title": "DSC05240",
     "orientation": "P",
-    "retouchStatus": "pending",
+    "retouchStatus": "ready",
     "original": {
       "src": "photos/originals/DSC05240.jpg",
       "filename": "DSC05240-original.jpg"
     },
-    "edited": null
+    "edited": {
+      "src": "photos/edited/DSC05240-retouche.jpg",
+      "filename": "DSC05240-retouche.jpg"
+    }
   },
   {
     "id": 74,
     "title": "DSC05237",
     "orientation": "P",
-    "retouchStatus": "pending",
+    "retouchStatus": "ready",
     "original": {
       "src": "photos/originals/DSC05237.jpg",
       "filename": "DSC05237-original.jpg"
     },
-    "edited": null
+    "edited": {
+      "src": "photos/edited/DSC05237-retouche.jpg",
+      "filename": "DSC05237-retouche.jpg"
+    }
   }
 ];
