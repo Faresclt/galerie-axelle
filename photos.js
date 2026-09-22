@@ -1089,7 +1089,11 @@ window.AXELLE_PHOTOS = [
       "src": "photos/deep/DSC05305-profondeur.jpg",
       "filename": "DSC05305-profondeur.jpg"
     },
-    "deepStatus": "ready"
+    "deepStatus": "ready",
+    "purple": {
+      "src": "photos/purple/DSC05305-violet.jpg",
+      "filename": "DSC05305-violet.jpg"
+    }
   },
   {
     "id": 61,
@@ -1108,7 +1112,11 @@ window.AXELLE_PHOTOS = [
       "src": "photos/deep/DSC05300-profondeur.jpg",
       "filename": "DSC05300-profondeur.jpg"
     },
-    "deepStatus": "ready"
+    "deepStatus": "ready",
+    "purple": {
+      "src": "photos/purple/DSC05300-violet.jpg",
+      "filename": "DSC05300-violet.jpg"
+    }
   },
   {
     "id": 62,
@@ -1146,7 +1154,11 @@ window.AXELLE_PHOTOS = [
       "src": "photos/deep/DSC05291-profondeur.jpg",
       "filename": "DSC05291-profondeur.jpg"
     },
-    "deepStatus": "ready"
+    "deepStatus": "ready",
+    "purple": {
+      "src": "photos/purple/DSC05291-violet.jpg",
+      "filename": "DSC05291-violet.jpg"
+    }
   },
   {
     "id": 64,

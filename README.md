@@ -12,6 +12,12 @@ Source vérifiée le 22 septembre 2026 : `https://www.felixbarjou.com/selection/
 - Les données proviennent de `photos.js`. Aucun identifiant de connexion ne doit y figurer.
 - Fichiers JPEG pour la compatibilité avec Photos et Safari sur iPhone. Les retouches sont réalisées avec l’outil d’image intégré de ChatGPT, puis exportées en JPEG. Les PNG issus de l’outil sont conservés séparément.
 
+## Corrections de peau et essais violets
+
+Six retouches en profondeur ont été corrigées pour retirer les boutons encore visibles : DSC05300, DSC05298, DSC05305, DSC05377, DSC05291 et DSC05288. Trois variantes supplémentaires sur fond violet inspiré de la référence fournie sont proposées pour DSC05300, DSC05305 et DSC05291. Le filtre « Essais fond violet » permet de les comparer et télécharger. Les versions sur fond clair restent accessibles.
+
+[Les trois essais violets en JPEG ZIP](https://github.com/Faresclt/galerie-axelle/releases/download/photos-v1/axelle-essais-violets.zip).
+
 ## Téléchargements et limites
 
 - [Les 74 originaux en ZIP](https://github.com/Faresclt/galerie-axelle/releases/download/photos-v1/axelle-74-originaux.zip).

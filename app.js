@@ -4,13 +4,14 @@ const el = id => document.getElementById(id);
 const dialog = el('viewer');
 let currentPhoto = null;
 let currentVersion = 'original';
-const versionNames = { original: 'Original', edited: 'Retouche légère', deep: 'Retouche en profondeur' };
+const versionNames = { original: 'Original', edited: 'Retouche légère', deep: 'Retouche en profondeur', purple: 'Essai fond violet' };
 
 function imagePath(src) {
   if (typeof src !== 'string') throw new Error('Chemin image manquant');
   const parsed = new URL(src, location.href);
   if (!['http:', 'https:', 'file:'].includes(parsed.protocol)) throw new Error('Format de lien refusé');
   if (parsed.origin !== location.origin) throw new Error('Les images doivent être hébergées avec la galerie');
+  parsed.searchParams.set('v', '4');
   return parsed.href;
 }
 
@@ -26,6 +27,7 @@ function setVersion(version) {
   el('show-original').setAttribute('aria-pressed', String(version === 'original'));
   el('show-edited').setAttribute('aria-pressed', String(version === 'edited'));
   el('show-deep').setAttribute('aria-pressed', String(version === 'deep'));
+  el('show-purple').setAttribute('aria-pressed', String(version === 'purple'));
   el('share-status').textContent = '';
 }
 
@@ -34,6 +36,7 @@ function openPhoto(photo, version) {
   el('viewer-title').textContent = photo.title;
   el('show-edited').disabled = !photo.edited;
   el('show-deep').disabled = !photo.deep;
+  el('show-purple').hidden = !photo.purple;
   setVersion(version);
   dialog.showModal();
 }
@@ -63,7 +66,7 @@ function figure(photo, version) {
   }
   const caption = document.createElement('figcaption');
   const label = document.createElement('span');
-  label.textContent = `${{ original: '01', edited: '02', deep: '03' }[version]} / ${versionNames[version].toLocaleUpperCase('fr')}`;
+  label.textContent = `${{ original: '01', edited: '02', deep: '03', purple: '04' }[version]} / ${versionNames[version].toLocaleUpperCase('fr')}`;
   caption.append(label);
   if (asset) {
     const link = document.createElement('a');
@@ -79,7 +82,7 @@ function figure(photo, version) {
 
 function render() {
   const query = el('search').value.trim().toLocaleLowerCase('fr');
-  const visible = photos.filter(photo => `${photo.id} ${photo.title}`.toLocaleLowerCase('fr').includes(query) && (el('filter').value !== 'ready' || photo.edited) && (el('filter').value !== 'deep' || photo.deep));
+  const visible = photos.filter(photo => `${photo.id} ${photo.title}`.toLocaleLowerCase('fr').includes(query) && (el('filter').value !== 'ready' || photo.edited) && (el('filter').value !== 'deep' || photo.deep) && (el('filter').value !== 'purple' || photo.purple));
   const fragment = document.createDocumentFragment();
   for (const photo of visible) {
     const card = document.createElement('article');
@@ -95,6 +98,7 @@ function render() {
     pair.className = 'pair';
     pair.style.setProperty('--photo-ratio', photo.orientation === 'P' ? '2 / 3' : '3 / 2');
     pair.append(figure(photo, 'original'), figure(photo, 'edited'), figure(photo, 'deep'));
+    if (photo.purple) { pair.append(figure(photo, 'purple')); pair.classList.add('with-purple'); }
     card.append(top, pair);
     fragment.append(card);
   }
@@ -114,6 +118,8 @@ dialog.addEventListener('click', event => {
 el('show-original').addEventListener('click', () => setVersion('original'));
 el('show-edited').addEventListener('click', () => setVersion('edited'));
 el('show-deep').addEventListener('click', () => setVersion('deep'));
+el('show-purple').addEventListener('click', () => setVersion('purple'));
+if (location.hash === '#violet') el('filter').value = 'purple';
 el('share').addEventListener('click', async () => {
   const asset = currentPhoto[currentVersion];
   if (!navigator.share || !navigator.canShare) {
