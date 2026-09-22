@@ -19,7 +19,12 @@ window.AXELLE_PHOTOS = [
       "src": "photos/deep/DSC05563-profondeur.jpg",
       "filename": "DSC05563-profondeur.jpg"
     },
-    "deepStatus": "ready"
+    "deepStatus": "ready",
+    "purple": {
+      "src": "photos/purple/DSC05563-violet.jpg",
+      "filename": "DSC05563-violet.jpg"
+    },
+    "purpleStatus": "ready"
   },
   {
     "id": 2,
@@ -38,7 +43,12 @@ window.AXELLE_PHOTOS = [
       "src": "photos/deep/DSC05562-profondeur.jpg",
       "filename": "DSC05562-profondeur.jpg"
     },
-    "deepStatus": "ready"
+    "deepStatus": "ready",
+    "purple": {
+      "src": "photos/purple/DSC05562-violet.jpg",
+      "filename": "DSC05562-violet.jpg"
+    },
+    "purpleStatus": "ready"
   },
   {
     "id": 3,
@@ -57,7 +67,12 @@ window.AXELLE_PHOTOS = [
       "src": "photos/deep/DSC05561-profondeur.jpg",
       "filename": "DSC05561-profondeur.jpg"
     },
-    "deepStatus": "ready"
+    "deepStatus": "ready",
+    "purple": {
+      "src": "photos/purple/DSC05561-violet.jpg",
+      "filename": "DSC05561-violet.jpg"
+    },
+    "purpleStatus": "ready"
   },
   {
     "id": 4,
@@ -76,7 +91,12 @@ window.AXELLE_PHOTOS = [
       "src": "photos/deep/DSC05558-profondeur.jpg",
       "filename": "DSC05558-profondeur.jpg"
     },
-    "deepStatus": "ready"
+    "deepStatus": "ready",
+    "purple": {
+      "src": "photos/purple/DSC05558-violet.jpg",
+      "filename": "DSC05558-violet.jpg"
+    },
+    "purpleStatus": "ready"
   },
   {
     "id": 5,
@@ -95,7 +115,12 @@ window.AXELLE_PHOTOS = [
       "src": "photos/deep/DSC05555-profondeur.jpg",
       "filename": "DSC05555-profondeur.jpg"
     },
-    "deepStatus": "ready"
+    "deepStatus": "ready",
+    "purple": {
+      "src": "photos/purple/DSC05555-violet.jpg",
+      "filename": "DSC05555-violet.jpg"
+    },
+    "purpleStatus": "ready"
   },
   {
     "id": 6,
@@ -114,7 +139,12 @@ window.AXELLE_PHOTOS = [
       "src": "photos/deep/DSC05554-profondeur.jpg",
       "filename": "DSC05554-profondeur.jpg"
     },
-    "deepStatus": "ready"
+    "deepStatus": "ready",
+    "purple": {
+      "src": "photos/purple/DSC05554-violet.jpg",
+      "filename": "DSC05554-violet.jpg"
+    },
+    "purpleStatus": "ready"
   },
   {
     "id": 7,
@@ -133,7 +163,12 @@ window.AXELLE_PHOTOS = [
       "src": "photos/deep/DSC05552-profondeur.jpg",
       "filename": "DSC05552-profondeur.jpg"
     },
-    "deepStatus": "ready"
+    "deepStatus": "ready",
+    "purple": {
+      "src": "photos/purple/DSC05552-violet.jpg",
+      "filename": "DSC05552-violet.jpg"
+    },
+    "purpleStatus": "ready"
   },
   {
     "id": 8,
@@ -152,7 +187,12 @@ window.AXELLE_PHOTOS = [
       "src": "photos/deep/DSC05549-profondeur.jpg",
       "filename": "DSC05549-profondeur.jpg"
     },
-    "deepStatus": "ready"
+    "deepStatus": "ready",
+    "purple": {
+      "src": "photos/purple/DSC05549-violet.jpg",
+      "filename": "DSC05549-violet.jpg"
+    },
+    "purpleStatus": "ready"
   },
   {
     "id": 9,
@@ -171,7 +211,12 @@ window.AXELLE_PHOTOS = [
       "src": "photos/deep/DSC05548-profondeur.jpg",
       "filename": "DSC05548-profondeur.jpg"
     },
-    "deepStatus": "ready"
+    "deepStatus": "ready",
+    "purple": {
+      "src": "photos/purple/DSC05548-violet.jpg",
+      "filename": "DSC05548-violet.jpg"
+    },
+    "purpleStatus": "ready"
   },
   {
     "id": 10,
@@ -190,7 +235,12 @@ window.AXELLE_PHOTOS = [
       "src": "photos/deep/DSC05547-profondeur.jpg",
       "filename": "DSC05547-profondeur.jpg"
     },
-    "deepStatus": "ready"
+    "deepStatus": "ready",
+    "purple": {
+      "src": "photos/purple/DSC05547-violet.jpg",
+      "filename": "DSC05547-violet.jpg"
+    },
+    "purpleStatus": "ready"
   },
   {
     "id": 11,
@@ -209,7 +259,12 @@ window.AXELLE_PHOTOS = [
       "src": "photos/deep/DSC05544-profondeur.jpg",
       "filename": "DSC05544-profondeur.jpg"
     },
-    "deepStatus": "ready"
+    "deepStatus": "ready",
+    "purple": {
+      "src": "photos/purple/DSC05544-violet.jpg",
+      "filename": "DSC05544-violet.jpg"
+    },
+    "purpleStatus": "ready"
   },
   {
     "id": 12,
@@ -228,7 +283,12 @@ window.AXELLE_PHOTOS = [
       "src": "photos/deep/DSC05543-profondeur.jpg",
       "filename": "DSC05543-profondeur.jpg"
     },
-    "deepStatus": "ready"
+    "deepStatus": "ready",
+    "purple": {
+      "src": "photos/purple/DSC05543-violet.jpg",
+      "filename": "DSC05543-violet.jpg"
+    },
+    "purpleStatus": "ready"
   },
   {
     "id": 13,
@@ -247,7 +307,12 @@ window.AXELLE_PHOTOS = [
       "src": "photos/deep/DSC05537-profondeur.jpg",
       "filename": "DSC05537-profondeur.jpg"
     },
-    "deepStatus": "ready"
+    "deepStatus": "ready",
+    "purple": {
+      "src": "photos/purple/DSC05537-violet.jpg",
+      "filename": "DSC05537-violet.jpg"
+    },
+    "purpleStatus": "ready"
   },
   {
     "id": 14,
@@ -263,7 +328,12 @@ window.AXELLE_PHOTOS = [
       "src": "photos/deep/DSC05534-profondeur.jpg",
       "filename": "DSC05534-profondeur.jpg"
     },
-    "deepStatus": "ready"
+    "deepStatus": "ready",
+    "purple": {
+      "src": "photos/purple/DSC05534-violet.jpg",
+      "filename": "DSC05534-violet.jpg"
+    },
+    "purpleStatus": "ready"
   },
   {
     "id": 15,
@@ -282,7 +352,12 @@ window.AXELLE_PHOTOS = [
       "src": "photos/deep/DSC05533-profondeur.jpg",
       "filename": "DSC05533-profondeur.jpg"
     },
-    "deepStatus": "ready"
+    "deepStatus": "ready",
+    "purple": {
+      "src": "photos/purple/DSC05533-violet.jpg",
+      "filename": "DSC05533-violet.jpg"
+    },
+    "purpleStatus": "ready"
   },
   {
     "id": 16,
@@ -301,7 +376,12 @@ window.AXELLE_PHOTOS = [
       "src": "photos/deep/DSC05530-profondeur.jpg",
       "filename": "DSC05530-profondeur.jpg"
     },
-    "deepStatus": "ready"
+    "deepStatus": "ready",
+    "purple": {
+      "src": "photos/purple/DSC05530-violet.jpg",
+      "filename": "DSC05530-violet.jpg"
+    },
+    "purpleStatus": "ready"
   },
   {
     "id": 17,
@@ -320,7 +400,12 @@ window.AXELLE_PHOTOS = [
       "src": "photos/deep/DSC05529-profondeur.jpg",
       "filename": "DSC05529-profondeur.jpg"
     },
-    "deepStatus": "ready"
+    "deepStatus": "ready",
+    "purple": {
+      "src": "photos/purple/DSC05529-violet.jpg",
+      "filename": "DSC05529-violet.jpg"
+    },
+    "purpleStatus": "ready"
   },
   {
     "id": 18,
@@ -333,7 +418,8 @@ window.AXELLE_PHOTOS = [
     },
     "edited": null,
     "deep": null,
-    "deepStatus": "unavailable"
+    "deepStatus": "unavailable",
+    "purpleStatus": "unavailable"
   },
   {
     "id": 19,
@@ -346,7 +432,12 @@ window.AXELLE_PHOTOS = [
     },
     "edited": null,
     "deep": null,
-    "deepStatus": "unavailable"
+    "deepStatus": "unavailable",
+    "purple": {
+      "src": "photos/purple/DSC05517-violet.jpg",
+      "filename": "DSC05517-violet.jpg"
+    },
+    "purpleStatus": "ready"
   },
   {
     "id": 20,
@@ -359,7 +450,8 @@ window.AXELLE_PHOTOS = [
     },
     "edited": null,
     "deep": null,
-    "deepStatus": "unavailable"
+    "deepStatus": "unavailable",
+    "purpleStatus": "unavailable"
   },
   {
     "id": 21,
@@ -372,7 +464,8 @@ window.AXELLE_PHOTOS = [
     },
     "edited": null,
     "deep": null,
-    "deepStatus": "unavailable"
+    "deepStatus": "unavailable",
+    "purpleStatus": "unavailable"
   },
   {
     "id": 22,
@@ -385,7 +478,12 @@ window.AXELLE_PHOTOS = [
     },
     "edited": null,
     "deep": null,
-    "deepStatus": "unavailable"
+    "deepStatus": "unavailable",
+    "purple": {
+      "src": "photos/purple/DSC05507-violet.jpg",
+      "filename": "DSC05507-violet.jpg"
+    },
+    "purpleStatus": "ready"
   },
   {
     "id": 23,
@@ -398,7 +496,8 @@ window.AXELLE_PHOTOS = [
     },
     "edited": null,
     "deep": null,
-    "deepStatus": "unavailable"
+    "deepStatus": "unavailable",
+    "purpleStatus": "unavailable"
   },
   {
     "id": 24,
@@ -414,7 +513,8 @@ window.AXELLE_PHOTOS = [
       "src": "photos/deep/DSC05504-profondeur.jpg",
       "filename": "DSC05504-profondeur.jpg"
     },
-    "deepStatus": "ready"
+    "deepStatus": "ready",
+    "purpleStatus": "unavailable"
   },
   {
     "id": 25,
@@ -433,7 +533,12 @@ window.AXELLE_PHOTOS = [
       "src": "photos/deep/DSC05503-profondeur.jpg",
       "filename": "DSC05503-profondeur.jpg"
     },
-    "deepStatus": "ready"
+    "deepStatus": "ready",
+    "purple": {
+      "src": "photos/purple/DSC05503-violet.jpg",
+      "filename": "DSC05503-violet.jpg"
+    },
+    "purpleStatus": "ready"
   },
   {
     "id": 26,
@@ -446,7 +551,8 @@ window.AXELLE_PHOTOS = [
     },
     "edited": null,
     "deep": null,
-    "deepStatus": "unavailable"
+    "deepStatus": "unavailable",
+    "purpleStatus": "unavailable"
   },
   {
     "id": 27,
@@ -465,7 +571,12 @@ window.AXELLE_PHOTOS = [
       "src": "photos/deep/DSC05498-profondeur.jpg",
       "filename": "DSC05498-profondeur.jpg"
     },
-    "deepStatus": "ready"
+    "deepStatus": "ready",
+    "purple": {
+      "src": "photos/purple/DSC05498-violet.jpg",
+      "filename": "DSC05498-violet.jpg"
+    },
+    "purpleStatus": "ready"
   },
   {
     "id": 28,
@@ -481,7 +592,12 @@ window.AXELLE_PHOTOS = [
       "filename": "DSC05497-retouche.jpg"
     },
     "deep": null,
-    "deepStatus": "unavailable"
+    "deepStatus": "unavailable",
+    "purple": {
+      "src": "photos/purple/DSC05497-violet.jpg",
+      "filename": "DSC05497-violet.jpg"
+    },
+    "purpleStatus": "ready"
   },
   {
     "id": 29,
@@ -500,7 +616,12 @@ window.AXELLE_PHOTOS = [
       "src": "photos/deep/DSC05489-profondeur.jpg",
       "filename": "DSC05489-profondeur.jpg"
     },
-    "deepStatus": "ready"
+    "deepStatus": "ready",
+    "purple": {
+      "src": "photos/purple/DSC05489-violet.jpg",
+      "filename": "DSC05489-violet.jpg"
+    },
+    "purpleStatus": "ready"
   },
   {
     "id": 30,
@@ -520,6 +641,11 @@ window.AXELLE_PHOTOS = [
       "filename": "DSC05488-profondeur.jpg"
     },
     "deepStatus": "ready",
+    "purple": {
+      "src": "photos/purple/DSC05488-violet.jpg",
+      "filename": "DSC05488-violet.jpg"
+    },
+    "purpleStatus": "ready",
     "expression": {
       "src": "photos/expression/DSC05488-naturelle.jpg",
       "filename": "DSC05488-naturelle.jpg"
@@ -542,7 +668,12 @@ window.AXELLE_PHOTOS = [
       "src": "photos/deep/DSC05480-profondeur.jpg",
       "filename": "DSC05480-profondeur.jpg"
     },
-    "deepStatus": "ready"
+    "deepStatus": "ready",
+    "purple": {
+      "src": "photos/purple/DSC05480-violet.jpg",
+      "filename": "DSC05480-violet.jpg"
+    },
+    "purpleStatus": "ready"
   },
   {
     "id": 32,
@@ -561,7 +692,12 @@ window.AXELLE_PHOTOS = [
       "src": "photos/deep/DSC05478-profondeur.jpg",
       "filename": "DSC05478-profondeur.jpg"
     },
-    "deepStatus": "ready"
+    "deepStatus": "ready",
+    "purple": {
+      "src": "photos/purple/DSC05478-violet.jpg",
+      "filename": "DSC05478-violet.jpg"
+    },
+    "purpleStatus": "ready"
   },
   {
     "id": 33,
@@ -580,7 +716,12 @@ window.AXELLE_PHOTOS = [
       "src": "photos/deep/DSC05475-profondeur.jpg",
       "filename": "DSC05475-profondeur.jpg"
     },
-    "deepStatus": "ready"
+    "deepStatus": "ready",
+    "purple": {
+      "src": "photos/purple/DSC05475-violet.jpg",
+      "filename": "DSC05475-violet.jpg"
+    },
+    "purpleStatus": "ready"
   },
   {
     "id": 34,
@@ -600,6 +741,7 @@ window.AXELLE_PHOTOS = [
       "filename": "DSC05473-profondeur.jpg"
     },
     "deepStatus": "ready",
+    "purpleStatus": "unavailable",
     "expression": {
       "src": "photos/expression/DSC05473-naturelle.jpg",
       "filename": "DSC05473-naturelle.jpg"
@@ -622,7 +764,12 @@ window.AXELLE_PHOTOS = [
       "src": "photos/deep/DSC05448-profondeur.jpg",
       "filename": "DSC05448-profondeur.jpg"
     },
-    "deepStatus": "ready"
+    "deepStatus": "ready",
+    "purple": {
+      "src": "photos/purple/DSC05448-violet.jpg",
+      "filename": "DSC05448-violet.jpg"
+    },
+    "purpleStatus": "ready"
   },
   {
     "id": 36,
@@ -641,7 +788,12 @@ window.AXELLE_PHOTOS = [
       "src": "photos/deep/DSC05426-profondeur.jpg",
       "filename": "DSC05426-profondeur.jpg"
     },
-    "deepStatus": "ready"
+    "deepStatus": "ready",
+    "purple": {
+      "src": "photos/purple/DSC05426-violet.jpg",
+      "filename": "DSC05426-violet.jpg"
+    },
+    "purpleStatus": "ready"
   },
   {
     "id": 37,
@@ -660,7 +812,12 @@ window.AXELLE_PHOTOS = [
       "src": "photos/deep/DSC05419-profondeur.jpg",
       "filename": "DSC05419-profondeur.jpg"
     },
-    "deepStatus": "ready"
+    "deepStatus": "ready",
+    "purple": {
+      "src": "photos/purple/DSC05419-violet.jpg",
+      "filename": "DSC05419-violet.jpg"
+    },
+    "purpleStatus": "ready"
   },
   {
     "id": 38,
@@ -679,7 +836,12 @@ window.AXELLE_PHOTOS = [
       "src": "photos/deep/DSC05418-profondeur.jpg",
       "filename": "DSC05418-profondeur.jpg"
     },
-    "deepStatus": "ready"
+    "deepStatus": "ready",
+    "purple": {
+      "src": "photos/purple/DSC05418-violet.jpg",
+      "filename": "DSC05418-violet.jpg"
+    },
+    "purpleStatus": "ready"
   },
   {
     "id": 39,
@@ -698,7 +860,12 @@ window.AXELLE_PHOTOS = [
       "src": "photos/deep/DSC05415-profondeur.jpg",
       "filename": "DSC05415-profondeur.jpg"
     },
-    "deepStatus": "ready"
+    "deepStatus": "ready",
+    "purple": {
+      "src": "photos/purple/DSC05415-violet.jpg",
+      "filename": "DSC05415-violet.jpg"
+    },
+    "purpleStatus": "ready"
   },
   {
     "id": 40,
@@ -717,7 +884,12 @@ window.AXELLE_PHOTOS = [
       "src": "photos/deep/DSC05412-profondeur.jpg",
       "filename": "DSC05412-profondeur.jpg"
     },
-    "deepStatus": "ready"
+    "deepStatus": "ready",
+    "purple": {
+      "src": "photos/purple/DSC05412-violet.jpg",
+      "filename": "DSC05412-violet.jpg"
+    },
+    "purpleStatus": "ready"
   },
   {
     "id": 41,
@@ -736,7 +908,12 @@ window.AXELLE_PHOTOS = [
       "src": "photos/deep/DSC05411-profondeur.jpg",
       "filename": "DSC05411-profondeur.jpg"
     },
-    "deepStatus": "ready"
+    "deepStatus": "ready",
+    "purple": {
+      "src": "photos/purple/DSC05411-violet.jpg",
+      "filename": "DSC05411-violet.jpg"
+    },
+    "purpleStatus": "ready"
   },
   {
     "id": 42,
@@ -755,7 +932,12 @@ window.AXELLE_PHOTOS = [
       "src": "photos/deep/DSC05408-profondeur.jpg",
       "filename": "DSC05408-profondeur.jpg"
     },
-    "deepStatus": "ready"
+    "deepStatus": "ready",
+    "purple": {
+      "src": "photos/purple/DSC05408-violet.jpg",
+      "filename": "DSC05408-violet.jpg"
+    },
+    "purpleStatus": "ready"
   },
   {
     "id": 43,
@@ -774,7 +956,12 @@ window.AXELLE_PHOTOS = [
       "src": "photos/deep/DSC05406-profondeur.jpg",
       "filename": "DSC05406-profondeur.jpg"
     },
-    "deepStatus": "ready"
+    "deepStatus": "ready",
+    "purple": {
+      "src": "photos/purple/DSC05406-violet.jpg",
+      "filename": "DSC05406-violet.jpg"
+    },
+    "purpleStatus": "ready"
   },
   {
     "id": 44,
@@ -793,7 +980,12 @@ window.AXELLE_PHOTOS = [
       "src": "photos/deep/DSC05405-profondeur.jpg",
       "filename": "DSC05405-profondeur.jpg"
     },
-    "deepStatus": "ready"
+    "deepStatus": "ready",
+    "purple": {
+      "src": "photos/purple/DSC05405-violet.jpg",
+      "filename": "DSC05405-violet.jpg"
+    },
+    "purpleStatus": "ready"
   },
   {
     "id": 45,
@@ -812,7 +1004,12 @@ window.AXELLE_PHOTOS = [
       "src": "photos/deep/DSC05400-profondeur.jpg",
       "filename": "DSC05400-profondeur.jpg"
     },
-    "deepStatus": "ready"
+    "deepStatus": "ready",
+    "purple": {
+      "src": "photos/purple/DSC05400-violet.jpg",
+      "filename": "DSC05400-violet.jpg"
+    },
+    "purpleStatus": "ready"
   },
   {
     "id": 46,
@@ -831,7 +1028,12 @@ window.AXELLE_PHOTOS = [
       "src": "photos/deep/DSC05396-profondeur.jpg",
       "filename": "DSC05396-profondeur.jpg"
     },
-    "deepStatus": "ready"
+    "deepStatus": "ready",
+    "purple": {
+      "src": "photos/purple/DSC05396-violet.jpg",
+      "filename": "DSC05396-violet.jpg"
+    },
+    "purpleStatus": "ready"
   },
   {
     "id": 47,
@@ -850,7 +1052,12 @@ window.AXELLE_PHOTOS = [
       "src": "photos/deep/DSC05392-profondeur.jpg",
       "filename": "DSC05392-profondeur.jpg"
     },
-    "deepStatus": "ready"
+    "deepStatus": "ready",
+    "purple": {
+      "src": "photos/purple/DSC05392-violet.jpg",
+      "filename": "DSC05392-violet.jpg"
+    },
+    "purpleStatus": "ready"
   },
   {
     "id": 48,
@@ -869,7 +1076,12 @@ window.AXELLE_PHOTOS = [
       "src": "photos/deep/DSC05385-profondeur.jpg",
       "filename": "DSC05385-profondeur.jpg"
     },
-    "deepStatus": "ready"
+    "deepStatus": "ready",
+    "purple": {
+      "src": "photos/purple/DSC05385-violet.jpg",
+      "filename": "DSC05385-violet.jpg"
+    },
+    "purpleStatus": "ready"
   },
   {
     "id": 49,
@@ -888,7 +1100,12 @@ window.AXELLE_PHOTOS = [
       "src": "photos/deep/DSC05384-profondeur.jpg",
       "filename": "DSC05384-profondeur.jpg"
     },
-    "deepStatus": "ready"
+    "deepStatus": "ready",
+    "purple": {
+      "src": "photos/purple/DSC05384-violet.jpg",
+      "filename": "DSC05384-violet.jpg"
+    },
+    "purpleStatus": "ready"
   },
   {
     "id": 50,
@@ -907,7 +1124,12 @@ window.AXELLE_PHOTOS = [
       "src": "photos/deep/DSC05382-profondeur.jpg",
       "filename": "DSC05382-profondeur.jpg"
     },
-    "deepStatus": "ready"
+    "deepStatus": "ready",
+    "purple": {
+      "src": "photos/purple/DSC05382-violet.jpg",
+      "filename": "DSC05382-violet.jpg"
+    },
+    "purpleStatus": "ready"
   },
   {
     "id": 51,
@@ -926,7 +1148,12 @@ window.AXELLE_PHOTOS = [
       "src": "photos/deep/DSC05380-profondeur.jpg",
       "filename": "DSC05380-profondeur.jpg"
     },
-    "deepStatus": "ready"
+    "deepStatus": "ready",
+    "purple": {
+      "src": "photos/purple/DSC05380-violet.jpg",
+      "filename": "DSC05380-violet.jpg"
+    },
+    "purpleStatus": "ready"
   },
   {
     "id": 52,
@@ -945,7 +1172,12 @@ window.AXELLE_PHOTOS = [
       "src": "photos/deep/DSC05377-profondeur.jpg",
       "filename": "DSC05377-profondeur.jpg"
     },
-    "deepStatus": "ready"
+    "deepStatus": "ready",
+    "purple": {
+      "src": "photos/purple/DSC05377-violet.jpg",
+      "filename": "DSC05377-violet.jpg"
+    },
+    "purpleStatus": "ready"
   },
   {
     "id": 53,
@@ -964,7 +1196,12 @@ window.AXELLE_PHOTOS = [
       "src": "photos/deep/DSC05348-profondeur.jpg",
       "filename": "DSC05348-profondeur.jpg"
     },
-    "deepStatus": "ready"
+    "deepStatus": "ready",
+    "purple": {
+      "src": "photos/purple/DSC05348-violet.jpg",
+      "filename": "DSC05348-violet.jpg"
+    },
+    "purpleStatus": "ready"
   },
   {
     "id": 54,
@@ -983,7 +1220,12 @@ window.AXELLE_PHOTOS = [
       "src": "photos/deep/DSC05347-profondeur.jpg",
       "filename": "DSC05347-profondeur.jpg"
     },
-    "deepStatus": "ready"
+    "deepStatus": "ready",
+    "purple": {
+      "src": "photos/purple/DSC05347-violet.jpg",
+      "filename": "DSC05347-violet.jpg"
+    },
+    "purpleStatus": "ready"
   },
   {
     "id": 55,
@@ -1002,7 +1244,12 @@ window.AXELLE_PHOTOS = [
       "src": "photos/deep/DSC05339-profondeur.jpg",
       "filename": "DSC05339-profondeur.jpg"
     },
-    "deepStatus": "ready"
+    "deepStatus": "ready",
+    "purple": {
+      "src": "photos/purple/DSC05339-violet.jpg",
+      "filename": "DSC05339-violet.jpg"
+    },
+    "purpleStatus": "ready"
   },
   {
     "id": 56,
@@ -1021,7 +1268,12 @@ window.AXELLE_PHOTOS = [
       "src": "photos/deep/DSC05331-profondeur.jpg",
       "filename": "DSC05331-profondeur.jpg"
     },
-    "deepStatus": "ready"
+    "deepStatus": "ready",
+    "purple": {
+      "src": "photos/purple/DSC05331-violet.jpg",
+      "filename": "DSC05331-violet.jpg"
+    },
+    "purpleStatus": "ready"
   },
   {
     "id": 57,
@@ -1040,7 +1292,12 @@ window.AXELLE_PHOTOS = [
       "src": "photos/deep/DSC05328-profondeur.jpg",
       "filename": "DSC05328-profondeur.jpg"
     },
-    "deepStatus": "ready"
+    "deepStatus": "ready",
+    "purple": {
+      "src": "photos/purple/DSC05328-violet.jpg",
+      "filename": "DSC05328-violet.jpg"
+    },
+    "purpleStatus": "ready"
   },
   {
     "id": 58,
@@ -1059,7 +1316,12 @@ window.AXELLE_PHOTOS = [
       "src": "photos/deep/DSC05322-profondeur.jpg",
       "filename": "DSC05322-profondeur.jpg"
     },
-    "deepStatus": "ready"
+    "deepStatus": "ready",
+    "purple": {
+      "src": "photos/purple/DSC05322-violet.jpg",
+      "filename": "DSC05322-violet.jpg"
+    },
+    "purpleStatus": "ready"
   },
   {
     "id": 59,
@@ -1078,7 +1340,12 @@ window.AXELLE_PHOTOS = [
       "src": "photos/deep/DSC05316-profondeur.jpg",
       "filename": "DSC05316-profondeur.jpg"
     },
-    "deepStatus": "ready"
+    "deepStatus": "ready",
+    "purple": {
+      "src": "photos/purple/DSC05316-violet.jpg",
+      "filename": "DSC05316-violet.jpg"
+    },
+    "purpleStatus": "ready"
   },
   {
     "id": 60,
@@ -1101,7 +1368,8 @@ window.AXELLE_PHOTOS = [
     "purple": {
       "src": "photos/purple/DSC05305-violet.jpg",
       "filename": "DSC05305-violet.jpg"
-    }
+    },
+    "purpleStatus": "ready"
   },
   {
     "id": 61,
@@ -1124,7 +1392,8 @@ window.AXELLE_PHOTOS = [
     "purple": {
       "src": "photos/purple/DSC05300-violet.jpg",
       "filename": "DSC05300-violet.jpg"
-    }
+    },
+    "purpleStatus": "ready"
   },
   {
     "id": 62,
@@ -1143,7 +1412,12 @@ window.AXELLE_PHOTOS = [
       "src": "photos/deep/DSC05298-profondeur.jpg",
       "filename": "DSC05298-profondeur.jpg"
     },
-    "deepStatus": "ready"
+    "deepStatus": "ready",
+    "purple": {
+      "src": "photos/purple/DSC05298-violet.jpg",
+      "filename": "DSC05298-violet.jpg"
+    },
+    "purpleStatus": "ready"
   },
   {
     "id": 63,
@@ -1166,7 +1440,8 @@ window.AXELLE_PHOTOS = [
     "purple": {
       "src": "photos/purple/DSC05291-violet.jpg",
       "filename": "DSC05291-violet.jpg"
-    }
+    },
+    "purpleStatus": "ready"
   },
   {
     "id": 64,
@@ -1185,7 +1460,12 @@ window.AXELLE_PHOTOS = [
       "src": "photos/deep/DSC05288-profondeur.jpg",
       "filename": "DSC05288-profondeur.jpg"
     },
-    "deepStatus": "ready"
+    "deepStatus": "ready",
+    "purple": {
+      "src": "photos/purple/DSC05288-violet.jpg",
+      "filename": "DSC05288-violet.jpg"
+    },
+    "purpleStatus": "ready"
   },
   {
     "id": 65,
@@ -1205,6 +1485,11 @@ window.AXELLE_PHOTOS = [
       "filename": "DSC05275-profondeur.jpg"
     },
     "deepStatus": "ready",
+    "purple": {
+      "src": "photos/purple/DSC05275-violet.jpg",
+      "filename": "DSC05275-violet.jpg"
+    },
+    "purpleStatus": "ready",
     "expression": {
       "src": "photos/expression/DSC05275-naturelle.jpg",
       "filename": "DSC05275-naturelle.jpg"
@@ -1227,7 +1512,12 @@ window.AXELLE_PHOTOS = [
       "src": "photos/deep/DSC05272-profondeur.jpg",
       "filename": "DSC05272-profondeur.jpg"
     },
-    "deepStatus": "ready"
+    "deepStatus": "ready",
+    "purple": {
+      "src": "photos/purple/DSC05272-violet.jpg",
+      "filename": "DSC05272-violet.jpg"
+    },
+    "purpleStatus": "ready"
   },
   {
     "id": 67,
@@ -1246,7 +1536,12 @@ window.AXELLE_PHOTOS = [
       "src": "photos/deep/DSC05269-profondeur.jpg",
       "filename": "DSC05269-profondeur.jpg"
     },
-    "deepStatus": "ready"
+    "deepStatus": "ready",
+    "purple": {
+      "src": "photos/purple/DSC05269-violet.jpg",
+      "filename": "DSC05269-violet.jpg"
+    },
+    "purpleStatus": "ready"
   },
   {
     "id": 68,
@@ -1265,7 +1560,12 @@ window.AXELLE_PHOTOS = [
       "src": "photos/deep/DSC05264-profondeur.jpg",
       "filename": "DSC05264-profondeur.jpg"
     },
-    "deepStatus": "ready"
+    "deepStatus": "ready",
+    "purple": {
+      "src": "photos/purple/DSC05264-violet.jpg",
+      "filename": "DSC05264-violet.jpg"
+    },
+    "purpleStatus": "ready"
   },
   {
     "id": 69,
@@ -1284,7 +1584,12 @@ window.AXELLE_PHOTOS = [
       "src": "photos/deep/DSC05261-profondeur.jpg",
       "filename": "DSC05261-profondeur.jpg"
     },
-    "deepStatus": "ready"
+    "deepStatus": "ready",
+    "purple": {
+      "src": "photos/purple/DSC05261-violet.jpg",
+      "filename": "DSC05261-violet.jpg"
+    },
+    "purpleStatus": "ready"
   },
   {
     "id": 70,
@@ -1303,7 +1608,12 @@ window.AXELLE_PHOTOS = [
       "src": "photos/deep/DSC05259-profondeur.jpg",
       "filename": "DSC05259-profondeur.jpg"
     },
-    "deepStatus": "ready"
+    "deepStatus": "ready",
+    "purple": {
+      "src": "photos/purple/DSC05259-violet.jpg",
+      "filename": "DSC05259-violet.jpg"
+    },
+    "purpleStatus": "ready"
   },
   {
     "id": 71,
@@ -1322,7 +1632,12 @@ window.AXELLE_PHOTOS = [
       "src": "photos/deep/DSC05250-profondeur.jpg",
       "filename": "DSC05250-profondeur.jpg"
     },
-    "deepStatus": "ready"
+    "deepStatus": "ready",
+    "purple": {
+      "src": "photos/purple/DSC05250-violet.jpg",
+      "filename": "DSC05250-violet.jpg"
+    },
+    "purpleStatus": "ready"
   },
   {
     "id": 72,
@@ -1341,7 +1656,12 @@ window.AXELLE_PHOTOS = [
       "src": "photos/deep/DSC05245-profondeur.jpg",
       "filename": "DSC05245-profondeur.jpg"
     },
-    "deepStatus": "ready"
+    "deepStatus": "ready",
+    "purple": {
+      "src": "photos/purple/DSC05245-violet.jpg",
+      "filename": "DSC05245-violet.jpg"
+    },
+    "purpleStatus": "ready"
   },
   {
     "id": 73,
@@ -1360,7 +1680,12 @@ window.AXELLE_PHOTOS = [
       "src": "photos/deep/DSC05240-profondeur.jpg",
       "filename": "DSC05240-profondeur.jpg"
     },
-    "deepStatus": "ready"
+    "deepStatus": "ready",
+    "purple": {
+      "src": "photos/purple/DSC05240-violet.jpg",
+      "filename": "DSC05240-violet.jpg"
+    },
+    "purpleStatus": "ready"
   },
   {
     "id": 74,
@@ -1379,6 +1704,11 @@ window.AXELLE_PHOTOS = [
       "src": "photos/deep/DSC05237-profondeur.jpg",
       "filename": "DSC05237-profondeur.jpg"
     },
-    "deepStatus": "ready"
+    "deepStatus": "ready",
+    "purple": {
+      "src": "photos/purple/DSC05237-violet.jpg",
+      "filename": "DSC05237-violet.jpg"
+    },
+    "purpleStatus": "ready"
   }
 ];

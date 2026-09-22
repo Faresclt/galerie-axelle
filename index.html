@@ -7,10 +7,10 @@
   <meta name="robots" content="noindex, nofollow">
   <title>Axelle — La sélection</title>
   <meta name="description" content="Une galerie pour comparer les photos originales et leurs retouches, et télécharger sa sélection.">
-  <link rel="stylesheet" href="styles.css?v=6">
-  <script src="photos.js?v=6" defer></script>
-  <script src="selection.js?v=6" defer></script>
-  <script src="app.js?v=6" defer></script>
+  <link rel="stylesheet" href="styles.css?v=7">
+  <script src="photos.js?v=7" defer></script>
+  <script src="selection.js?v=7" defer></script>
+  <script src="app.js?v=7" defer></script>
 </head>
 <body>
   <header class="header"><a class="wordmark" href="#">AXELLE<span>LA SÉLECTION</span></a><span class="edition">PHOTOGRAPHIES · FÉLIX BARJOU</span></header>
@@ -18,11 +18,11 @@
     <section class="intro">
       <p class="eyebrow">LES FAVORIS, EN DÉTAIL</p>
       <h1>Le même instant.<br><em>Un autre regard.</em></h1>
-      <div class="intro-bottom"><p>Original, retouche légère, retouche en profondeur.<br>Trois regards sur chaque photo. Compare et garde tes préférées.</p><span class="total" id="total">LA SÉLECTION</span></div>
+      <div class="intro-bottom"><p>Original, retouches et fond violet.<br>Compare les versions et garde tes préférées.</p><span class="total" id="total">LA SÉLECTION</span></div>
     </section>
     <nav class="downloads" aria-label="Télécharger les archives"><a class="button primary" href="https://github.com/Faresclt/galerie-axelle/releases/download/photos-v1/axelle-74-originaux.zip">↓ Les 74 originaux · ZIP</a><a class="button" id="edited-archive" href="https://github.com/Faresclt/galerie-axelle/releases/download/photos-v1/axelle-retouches-jpeg.zip">↓ Les 65 retouches légères · ZIP</a></nav>
     <nav class="downloads" aria-label="Télécharger les retouches en profondeur"><a class="button" id="deep-archive" hidden href="https://github.com/Faresclt/galerie-axelle/releases/download/photos-v1/axelle-retouches-profondeur.zip">↓ Retouches en profondeur · ZIP</a></nav>
-    <p class="processing-note">Nouveau : peau corrigée sur six portraits. Trois essais avec un fond violet sont disponibles dans le filtre « Essais fond violet », avec leur fond clair à côté. <a href="https://github.com/Faresclt/galerie-axelle/releases/download/photos-v1/axelle-essais-violets.zip">Télécharger les trois essais · ZIP</a></p>
+    <p class="processing-note"><span id="purple-summary">Les variantes sur fond violet apparaissent à côté des autres versions.</span> <a id="purple-archive" href="https://github.com/Faresclt/galerie-axelle/releases/download/photos-v1/axelle-essais-violets.zip">Télécharger les fonds violets · ZIP</a></p>
     <p class="processing-note">Des variantes avec une expression plus détendue sont disponibles dans le filtre « Expression naturelle ». <a href="https://github.com/Faresclt/galerie-axelle/releases/download/photos-v1/axelle-expressions-naturelles.zip">Télécharger les expressions naturelles · ZIP</a></p>
     <p class="processing-note" id="processing-note">Les originaux et les retouches légères sont conservés.</p>
     <p class="mobile-compare-hint">Glisse les photos vers la gauche pour voir les autres versions ↔</p>
@@ -44,7 +44,7 @@
     </section>
     <aside class="save-note"><span class="note-number">↗</span><div><h2>À garder sur ton iPhone</h2><p>Ouvre une photo, puis utilise « Enregistrer / partager ». Dans Safari, choisis « Enregistrer l’image » si cette option est proposée. Tu peux aussi ouvrir le fichier et faire un appui long sur la photo.</p></div></aside>
   </main>
-  <footer><span>AXELLE / LA SÉLECTION</span><span>Trois versions · Téléchargements individuels</span></footer>
+  <footer><span>AXELLE / LA SÉLECTION</span><span>Comparaison · Favoris · Téléchargements</span></footer>
   <dialog id="viewer" aria-labelledby="viewer-title">
     <div class="viewer-header"><h2 id="viewer-title"></h2><button id="close" class="close" aria-label="Fermer">×</button></div>
     <div class="viewer-tabs" role="group" aria-label="Version affichée"><button id="show-original" aria-pressed="true">Original</button><button id="show-edited" aria-pressed="false">Retouche légère</button><button id="show-deep" aria-pressed="false">Retouche en profondeur</button><button id="show-purple" aria-pressed="false" hidden>Essai fond violet</button><button id="show-expression" aria-pressed="false" hidden>Expression naturelle</button></div>

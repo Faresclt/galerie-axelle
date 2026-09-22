@@ -4,7 +4,7 @@ const el = id => document.getElementById(id);
 const dialog = el('viewer');
 let currentPhoto = null;
 let currentVersion = 'original';
-const versionNames = { original: 'Original', edited: 'Retouche légère', deep: 'Retouche en profondeur', purple: 'Essai fond violet', expression: 'Expression naturelle' };
+const versionNames = { original: 'Original', edited: 'Retouche légère', deep: 'Retouche en profondeur', purple: 'Fond violet', expression: 'Expression naturelle' };
 
 const assetKey = (photo, version) => `${photo.title}:${version}`;
 const validKeys = new Set(photos.flatMap(photo => Object.keys(versionNames).filter(v => photo[v]).map(v => assetKey(photo,v))));
@@ -42,7 +42,7 @@ function imagePath(src) {
   const parsed = new URL(src, location.href);
   if (!['http:', 'https:', 'file:'].includes(parsed.protocol)) throw new Error('Format de lien refusé');
   if (parsed.origin !== location.origin) throw new Error('Les images doivent être hébergées avec la galerie');
-  parsed.searchParams.set('v', '5');
+  parsed.searchParams.set('v', '7');
   return parsed.href;
 }
 
@@ -102,13 +102,13 @@ function figure(photo, version) {
   } else {
     const pending = document.createElement('div');
     pending.className = 'pending';
-    const status = version === 'deep' ? photo.deepStatus : photo.retouchStatus;
-    pending.textContent = status === 'unavailable' ? 'Retouche indisponible · original conservé' : 'Retouche en cours';
+    const status = version === 'purple' ? photo.purpleStatus : version === 'deep' ? photo.deepStatus : photo.retouchStatus;
+    pending.textContent = status === 'unavailable' ? 'Refus du générateur · original conservé' : 'Retouche en cours';
     result.append(pending);
   }
   const caption = document.createElement('figcaption');
   const label = document.createElement('span');
-  label.textContent = `${{ original: '01', edited: '02', deep: '03', purple: '04', expression: '04' }[version]} / ${versionNames[version].toLocaleUpperCase('fr')}`;
+  label.textContent = `${{ original: '01', edited: '02', deep: '03', purple: '04', expression: photo.purple || photo.purpleStatus ? '05' : '04' }[version]} / ${versionNames[version].toLocaleUpperCase('fr')}`;
   caption.append(label);
   if (asset) {
     const link = document.createElement('a');
@@ -144,8 +144,9 @@ function render() {
       pair.classList.add('selection-pair');
     } else {
       pair.append(figure(photo, 'original'), figure(photo, 'edited'), figure(photo, 'deep'));
-      if (photo.purple) { pair.append(figure(photo, 'purple')); pair.classList.add('with-purple'); }
+      if (photo.purple || photo.purpleStatus) { pair.append(figure(photo, 'purple')); pair.classList.add('with-purple'); }
       if (photo.expression) { pair.append(figure(photo, 'expression')); pair.classList.add('with-purple'); }
+      pair.style.setProperty('--versions', pair.children.length);
     }
     card.append(top, pair);
     fragment.append(card);
@@ -220,9 +221,14 @@ el('empty').hidden = photos.length !== 0;
 if (photos.length) {
   const deepCount = photos.filter(photo => photo.deep).length;
   const deepUnavailable = photos.filter(photo => photo.deepStatus === 'unavailable').length;
+  const lightUnavailable = photos.filter(photo => photo.retouchStatus === 'unavailable').length;
+  const purpleCount = photos.filter(photo => photo.purple).length;
+  const purpleUnavailable = photos.filter(photo => photo.purpleStatus === 'unavailable').length;
   el('total').textContent = `${photos.length} FAVORIS · ${photos.filter(photo => photo.edited).length} RETOUCHES LÉGÈRES · ${deepCount} EN PROFONDEUR`;
   el('deep-archive').hidden = deepCount === 0;
   el('deep-archive').textContent = `↓ Les ${deepCount} retouches en profondeur · ZIP`;
-  el('processing-note').textContent = `${deepCount} retouches en profondeur disponibles.${deepUnavailable ? ` ${deepUnavailable} retouches en profondeur n’ont pas pu être générées.` : ''} Les 74 originaux et les 65 retouches légères sont conservés.`;
+  el('processing-note').textContent = `Certaines cases restent vides : le générateur a refusé ${lightUnavailable} retouches légères et ${deepUnavailable} retouches en profondeur. Les ${photos.length} originaux restent disponibles.`;
+  el('purple-summary').textContent = `${purpleCount} / ${photos.length} photos disponibles sur fond violet.${purpleUnavailable ? ` ${purpleUnavailable} variantes ont été refusées par le générateur.` : ''} Compare les versions et sélectionne tes préférées avec les cœurs.`;
+  el('purple-archive').textContent = `Télécharger les ${purpleCount} fonds violets · ZIP`;
 }
 render();
