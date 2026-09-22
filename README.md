@@ -4,6 +4,12 @@
 
 Source vérifiée le 22 septembre 2026 : `https://www.felixbarjou.com/selection/axelle/favorites`. Les 74 fichiers JPEG accessibles dans les favoris ont été récupérés. Il s’agit des versions fournies par la galerie, d’environ 1 500 pixels sur le grand côté ; les fichiers RAW ou les originaux de l’appareil photo ne sont pas fournis par cette page.
 
+## Nouvelle sélection avec les cœurs
+
+Chaque version téléchargeable possède un cœur dans la grille et dans la vue agrandie. « Mes favoris » ne montre que les versions retenues. Le bouton « Télécharger ma sélection » crée un ZIP contenant exactement ces JPEG. Les likes sont conservés dans le stockage local du navigateur sur cet appareil ; ils ne sont pas partagés ou synchronisés entre appareils. Aucun compte ni serveur de votes. Effacer les données du site efface la sélection. Si le stockage est bloqué, la page prévient que la sélection reste temporaire.
+
+Validation : sauvegarde après rechargement, retrait depuis la vue agrandie, filtre et état vide, ZIP téléchargé depuis le navigateur puis vérifié fichier par fichier, affichage mobile sans débordement.
+
 ## Fonctionnement
 
 - Site statique autonome, sans dépendance ni outil de suivi.

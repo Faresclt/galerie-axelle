@@ -7,9 +7,10 @@
   <meta name="robots" content="noindex, nofollow">
   <title>Axelle — La sélection</title>
   <meta name="description" content="Une galerie pour comparer les photos originales et leurs retouches, et télécharger sa sélection.">
-  <link rel="stylesheet" href="styles.css?v=5">
-  <script src="photos.js?v=5" defer></script>
-  <script src="app.js?v=5" defer></script>
+  <link rel="stylesheet" href="styles.css?v=6">
+  <script src="photos.js?v=6" defer></script>
+  <script src="selection.js?v=6" defer></script>
+  <script src="app.js?v=6" defer></script>
 </head>
 <body>
   <header class="header"><a class="wordmark" href="#">AXELLE<span>LA SÉLECTION</span></a><span class="edition">PHOTOGRAPHIES · FÉLIX BARJOU</span></header>
@@ -24,7 +25,13 @@
     <p class="processing-note">Nouveau : peau corrigée sur six portraits. Trois essais avec un fond violet sont disponibles dans le filtre « Essais fond violet », avec leur fond clair à côté. <a href="https://github.com/Faresclt/galerie-axelle/releases/download/photos-v1/axelle-essais-violets.zip">Télécharger les trois essais · ZIP</a></p>
     <p class="processing-note">Des variantes avec une expression plus détendue sont disponibles dans le filtre « Expression naturelle ». <a href="https://github.com/Faresclt/galerie-axelle/releases/download/photos-v1/axelle-expressions-naturelles.zip">Télécharger les expressions naturelles · ZIP</a></p>
     <p class="processing-note" id="processing-note">Les originaux et les retouches légères sont conservés.</p>
-    <p class="mobile-compare-hint">Glisse les photos vers la gauche pour voir la troisième version ↔</p>
+    <p class="mobile-compare-hint">Glisse les photos vers la gauche pour voir les autres versions ↔</p>
+    <section class="selection-bar" aria-label="Ma sélection">
+      <div><strong id="favorite-count" role="status">0 version sélectionnée</strong><p>Clique sur le cœur de la version que tu préfères. Tes choix sont conservés dans ce navigateur, sur cet appareil.</p></div>
+      <label class="favorites-toggle"><input type="checkbox" id="favorites-only"> Mes favoris</label>
+      <button class="button primary" id="download-selection" disabled>↓ Télécharger ma sélection · ZIP</button>
+      <p id="selection-status" role="status"></p>
+    </section>
     <section class="collection" aria-label="Collection de photographies">
       <div class="toolbar" id="toolbar" hidden>
         <label class="search-label"><span class="sr-only">Rechercher une photo</span><input id="search" type="search" placeholder="Rechercher une photo…" autocomplete="off"></label>
@@ -42,7 +49,7 @@
     <div class="viewer-header"><h2 id="viewer-title"></h2><button id="close" class="close" aria-label="Fermer">×</button></div>
     <div class="viewer-tabs" role="group" aria-label="Version affichée"><button id="show-original" aria-pressed="true">Original</button><button id="show-edited" aria-pressed="false">Retouche légère</button><button id="show-deep" aria-pressed="false">Retouche en profondeur</button><button id="show-purple" aria-pressed="false" hidden>Essai fond violet</button><button id="show-expression" aria-pressed="false" hidden>Expression naturelle</button></div>
     <div class="viewer-stage"><img id="viewer-image" alt=""></div>
-    <div class="viewer-actions"><a id="download" class="button primary" download>Télécharger</a><button id="share" class="button">Enregistrer / partager</button><a id="open-image" class="text-link" target="_blank" rel="noopener">Ouvrir le fichier ↗</a></div>
+    <div class="viewer-actions"><button id="viewer-like" class="button" aria-pressed="false">♡ Garder</button><a id="download" class="button primary" download>Télécharger</a><button id="share" class="button">Enregistrer / partager</button><a id="open-image" class="text-link" target="_blank" rel="noopener">Ouvrir le fichier ↗</a></div>
     <p id="share-status" class="share-status" role="status"></p>
   </dialog>
 </body>
