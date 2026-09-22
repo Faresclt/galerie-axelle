@@ -14,7 +14,12 @@ window.AXELLE_PHOTOS = [
     "edited": {
       "src": "photos/edited/DSC05563-retouche.jpg",
       "filename": "DSC05563-retouche.jpg"
-    }
+    },
+    "deep": {
+      "src": "photos/deep/DSC05563-profondeur.jpg",
+      "filename": "DSC05563-profondeur.jpg"
+    },
+    "deepStatus": "ready"
   },
   {
     "id": 2,
@@ -28,7 +33,12 @@ window.AXELLE_PHOTOS = [
     "edited": {
       "src": "photos/edited/DSC05562-retouche.jpg",
       "filename": "DSC05562-retouche.jpg"
-    }
+    },
+    "deep": {
+      "src": "photos/deep/DSC05562-profondeur.jpg",
+      "filename": "DSC05562-profondeur.jpg"
+    },
+    "deepStatus": "ready"
   },
   {
     "id": 3,
@@ -42,7 +52,12 @@ window.AXELLE_PHOTOS = [
     "edited": {
       "src": "photos/edited/DSC05561-retouche.jpg",
       "filename": "DSC05561-retouche.jpg"
-    }
+    },
+    "deep": {
+      "src": "photos/deep/DSC05561-profondeur.jpg",
+      "filename": "DSC05561-profondeur.jpg"
+    },
+    "deepStatus": "ready"
   },
   {
     "id": 4,
@@ -56,7 +71,12 @@ window.AXELLE_PHOTOS = [
     "edited": {
       "src": "photos/edited/DSC05558-retouche.jpg",
       "filename": "DSC05558-retouche.jpg"
-    }
+    },
+    "deep": {
+      "src": "photos/deep/DSC05558-profondeur.jpg",
+      "filename": "DSC05558-profondeur.jpg"
+    },
+    "deepStatus": "ready"
   },
   {
     "id": 5,
@@ -70,7 +90,12 @@ window.AXELLE_PHOTOS = [
     "edited": {
       "src": "photos/edited/DSC05555-retouche.jpg",
       "filename": "DSC05555-retouche.jpg"
-    }
+    },
+    "deep": {
+      "src": "photos/deep/DSC05555-profondeur.jpg",
+      "filename": "DSC05555-profondeur.jpg"
+    },
+    "deepStatus": "ready"
   },
   {
     "id": 6,
@@ -84,7 +109,12 @@ window.AXELLE_PHOTOS = [
     "edited": {
       "src": "photos/edited/DSC05554-retouche.jpg",
       "filename": "DSC05554-retouche.jpg"
-    }
+    },
+    "deep": {
+      "src": "photos/deep/DSC05554-profondeur.jpg",
+      "filename": "DSC05554-profondeur.jpg"
+    },
+    "deepStatus": "ready"
   },
   {
     "id": 7,
@@ -98,7 +128,12 @@ window.AXELLE_PHOTOS = [
     "edited": {
       "src": "photos/edited/DSC05552-retouche.jpg",
       "filename": "DSC05552-retouche.jpg"
-    }
+    },
+    "deep": {
+      "src": "photos/deep/DSC05552-profondeur.jpg",
+      "filename": "DSC05552-profondeur.jpg"
+    },
+    "deepStatus": "ready"
   },
   {
     "id": 8,
@@ -112,7 +147,12 @@ window.AXELLE_PHOTOS = [
     "edited": {
       "src": "photos/edited/DSC05549-retouche.jpg",
       "filename": "DSC05549-retouche.jpg"
-    }
+    },
+    "deep": {
+      "src": "photos/deep/DSC05549-profondeur.jpg",
+      "filename": "DSC05549-profondeur.jpg"
+    },
+    "deepStatus": "ready"
   },
   {
     "id": 9,
@@ -126,7 +166,12 @@ window.AXELLE_PHOTOS = [
     "edited": {
       "src": "photos/edited/DSC05548-retouche.jpg",
       "filename": "DSC05548-retouche.jpg"
-    }
+    },
+    "deep": {
+      "src": "photos/deep/DSC05548-profondeur.jpg",
+      "filename": "DSC05548-profondeur.jpg"
+    },
+    "deepStatus": "ready"
   },
   {
     "id": 10,
@@ -140,7 +185,12 @@ window.AXELLE_PHOTOS = [
     "edited": {
       "src": "photos/edited/DSC05547-retouche.jpg",
       "filename": "DSC05547-retouche.jpg"
-    }
+    },
+    "deep": {
+      "src": "photos/deep/DSC05547-profondeur.jpg",
+      "filename": "DSC05547-profondeur.jpg"
+    },
+    "deepStatus": "ready"
   },
   {
     "id": 11,
@@ -154,7 +204,12 @@ window.AXELLE_PHOTOS = [
     "edited": {
       "src": "photos/edited/DSC05544-retouche.jpg",
       "filename": "DSC05544-retouche.jpg"
-    }
+    },
+    "deep": {
+      "src": "photos/deep/DSC05544-profondeur.jpg",
+      "filename": "DSC05544-profondeur.jpg"
+    },
+    "deepStatus": "ready"
   },
   {
     "id": 12,
@@ -168,7 +223,12 @@ window.AXELLE_PHOTOS = [
     "edited": {
       "src": "photos/edited/DSC05543-retouche.jpg",
       "filename": "DSC05543-retouche.jpg"
-    }
+    },
+    "deep": {
+      "src": "photos/deep/DSC05543-profondeur.jpg",
+      "filename": "DSC05543-profondeur.jpg"
+    },
+    "deepStatus": "ready"
   },
   {
     "id": 13,
@@ -182,7 +242,12 @@ window.AXELLE_PHOTOS = [
     "edited": {
       "src": "photos/edited/DSC05537-retouche.jpg",
       "filename": "DSC05537-retouche.jpg"
-    }
+    },
+    "deep": {
+      "src": "photos/deep/DSC05537-profondeur.jpg",
+      "filename": "DSC05537-profondeur.jpg"
+    },
+    "deepStatus": "ready"
   },
   {
     "id": 14,
@@ -193,7 +258,12 @@ window.AXELLE_PHOTOS = [
       "src": "photos/originals/DSC05534.jpg",
       "filename": "DSC05534-original.jpg"
     },
-    "edited": null
+    "edited": null,
+    "deep": {
+      "src": "photos/deep/DSC05534-profondeur.jpg",
+      "filename": "DSC05534-profondeur.jpg"
+    },
+    "deepStatus": "ready"
   },
   {
     "id": 15,
@@ -207,7 +277,12 @@ window.AXELLE_PHOTOS = [
     "edited": {
       "src": "photos/edited/DSC05533-retouche.jpg",
       "filename": "DSC05533-retouche.jpg"
-    }
+    },
+    "deep": {
+      "src": "photos/deep/DSC05533-profondeur.jpg",
+      "filename": "DSC05533-profondeur.jpg"
+    },
+    "deepStatus": "ready"
   },
   {
     "id": 16,
@@ -221,7 +296,12 @@ window.AXELLE_PHOTOS = [
     "edited": {
       "src": "photos/edited/DSC05530-retouche.jpg",
       "filename": "DSC05530-retouche.jpg"
-    }
+    },
+    "deep": {
+      "src": "photos/deep/DSC05530-profondeur.jpg",
+      "filename": "DSC05530-profondeur.jpg"
+    },
+    "deepStatus": "ready"
   },
   {
     "id": 17,
@@ -235,7 +315,12 @@ window.AXELLE_PHOTOS = [
     "edited": {
       "src": "photos/edited/DSC05529-retouche.jpg",
       "filename": "DSC05529-retouche.jpg"
-    }
+    },
+    "deep": {
+      "src": "photos/deep/DSC05529-profondeur.jpg",
+      "filename": "DSC05529-profondeur.jpg"
+    },
+    "deepStatus": "ready"
   },
   {
     "id": 18,
@@ -246,7 +331,9 @@ window.AXELLE_PHOTOS = [
       "src": "photos/originals/DSC05521.jpg",
       "filename": "DSC05521-original.jpg"
     },
-    "edited": null
+    "edited": null,
+    "deep": null,
+    "deepStatus": "unavailable"
   },
   {
     "id": 19,
@@ -257,7 +344,9 @@ window.AXELLE_PHOTOS = [
       "src": "photos/originals/DSC05517.jpg",
       "filename": "DSC05517-original.jpg"
     },
-    "edited": null
+    "edited": null,
+    "deep": null,
+    "deepStatus": "unavailable"
   },
   {
     "id": 20,
@@ -268,7 +357,9 @@ window.AXELLE_PHOTOS = [
       "src": "photos/originals/DSC05512.jpg",
       "filename": "DSC05512-original.jpg"
     },
-    "edited": null
+    "edited": null,
+    "deep": null,
+    "deepStatus": "unavailable"
   },
   {
     "id": 21,
@@ -279,7 +370,9 @@ window.AXELLE_PHOTOS = [
       "src": "photos/originals/DSC05509.jpg",
       "filename": "DSC05509-original.jpg"
     },
-    "edited": null
+    "edited": null,
+    "deep": null,
+    "deepStatus": "unavailable"
   },
   {
     "id": 22,
@@ -290,7 +383,9 @@ window.AXELLE_PHOTOS = [
       "src": "photos/originals/DSC05507.jpg",
       "filename": "DSC05507-original.jpg"
     },
-    "edited": null
+    "edited": null,
+    "deep": null,
+    "deepStatus": "unavailable"
   },
   {
     "id": 23,
@@ -301,7 +396,9 @@ window.AXELLE_PHOTOS = [
       "src": "photos/originals/DSC05505.jpg",
       "filename": "DSC05505-original.jpg"
     },
-    "edited": null
+    "edited": null,
+    "deep": null,
+    "deepStatus": "unavailable"
   },
   {
     "id": 24,
@@ -312,7 +409,12 @@ window.AXELLE_PHOTOS = [
       "src": "photos/originals/DSC05504.jpg",
       "filename": "DSC05504-original.jpg"
     },
-    "edited": null
+    "edited": null,
+    "deep": {
+      "src": "photos/deep/DSC05504-profondeur.jpg",
+      "filename": "DSC05504-profondeur.jpg"
+    },
+    "deepStatus": "ready"
   },
   {
     "id": 25,
@@ -326,7 +428,12 @@ window.AXELLE_PHOTOS = [
     "edited": {
       "src": "photos/edited/DSC05503-retouche.jpg",
       "filename": "DSC05503-retouche.jpg"
-    }
+    },
+    "deep": {
+      "src": "photos/deep/DSC05503-profondeur.jpg",
+      "filename": "DSC05503-profondeur.jpg"
+    },
+    "deepStatus": "ready"
   },
   {
     "id": 26,
@@ -337,7 +444,9 @@ window.AXELLE_PHOTOS = [
       "src": "photos/originals/DSC05501.jpg",
       "filename": "DSC05501-original.jpg"
     },
-    "edited": null
+    "edited": null,
+    "deep": null,
+    "deepStatus": "unavailable"
   },
   {
     "id": 27,
@@ -351,7 +460,12 @@ window.AXELLE_PHOTOS = [
     "edited": {
       "src": "photos/edited/DSC05498-retouche.jpg",
       "filename": "DSC05498-retouche.jpg"
-    }
+    },
+    "deep": {
+      "src": "photos/deep/DSC05498-profondeur.jpg",
+      "filename": "DSC05498-profondeur.jpg"
+    },
+    "deepStatus": "ready"
   },
   {
     "id": 28,
@@ -365,7 +479,9 @@ window.AXELLE_PHOTOS = [
     "edited": {
       "src": "photos/edited/DSC05497-retouche.jpg",
       "filename": "DSC05497-retouche.jpg"
-    }
+    },
+    "deep": null,
+    "deepStatus": "unavailable"
   },
   {
     "id": 29,
@@ -379,7 +495,12 @@ window.AXELLE_PHOTOS = [
     "edited": {
       "src": "photos/edited/DSC05489-retouche.jpg",
       "filename": "DSC05489-retouche.jpg"
-    }
+    },
+    "deep": {
+      "src": "photos/deep/DSC05489-profondeur.jpg",
+      "filename": "DSC05489-profondeur.jpg"
+    },
+    "deepStatus": "ready"
   },
   {
     "id": 30,
@@ -393,7 +514,12 @@ window.AXELLE_PHOTOS = [
     "edited": {
       "src": "photos/edited/DSC05488-retouche.jpg",
       "filename": "DSC05488-retouche.jpg"
-    }
+    },
+    "deep": {
+      "src": "photos/deep/DSC05488-profondeur.jpg",
+      "filename": "DSC05488-profondeur.jpg"
+    },
+    "deepStatus": "ready"
   },
   {
     "id": 31,
@@ -407,7 +533,12 @@ window.AXELLE_PHOTOS = [
     "edited": {
       "src": "photos/edited/DSC05480-retouche.jpg",
       "filename": "DSC05480-retouche.jpg"
-    }
+    },
+    "deep": {
+      "src": "photos/deep/DSC05480-profondeur.jpg",
+      "filename": "DSC05480-profondeur.jpg"
+    },
+    "deepStatus": "ready"
   },
   {
     "id": 32,
@@ -421,7 +552,12 @@ window.AXELLE_PHOTOS = [
     "edited": {
       "src": "photos/edited/DSC05478-retouche.jpg",
       "filename": "DSC05478-retouche.jpg"
-    }
+    },
+    "deep": {
+      "src": "photos/deep/DSC05478-profondeur.jpg",
+      "filename": "DSC05478-profondeur.jpg"
+    },
+    "deepStatus": "ready"
   },
   {
     "id": 33,
@@ -435,7 +571,12 @@ window.AXELLE_PHOTOS = [
     "edited": {
       "src": "photos/edited/DSC05475-retouche.jpg",
       "filename": "DSC05475-retouche.jpg"
-    }
+    },
+    "deep": {
+      "src": "photos/deep/DSC05475-profondeur.jpg",
+      "filename": "DSC05475-profondeur.jpg"
+    },
+    "deepStatus": "ready"
   },
   {
     "id": 34,
@@ -449,7 +590,12 @@ window.AXELLE_PHOTOS = [
     "edited": {
       "src": "photos/edited/DSC05473-retouche.jpg",
       "filename": "DSC05473-retouche.jpg"
-    }
+    },
+    "deep": {
+      "src": "photos/deep/DSC05473-profondeur.jpg",
+      "filename": "DSC05473-profondeur.jpg"
+    },
+    "deepStatus": "ready"
   },
   {
     "id": 35,
@@ -463,7 +609,12 @@ window.AXELLE_PHOTOS = [
     "edited": {
       "src": "photos/edited/DSC05448-retouche.jpg",
       "filename": "DSC05448-retouche.jpg"
-    }
+    },
+    "deep": {
+      "src": "photos/deep/DSC05448-profondeur.jpg",
+      "filename": "DSC05448-profondeur.jpg"
+    },
+    "deepStatus": "ready"
   },
   {
     "id": 36,
@@ -477,7 +628,12 @@ window.AXELLE_PHOTOS = [
     "edited": {
       "src": "photos/edited/DSC05426-retouche.jpg",
       "filename": "DSC05426-retouche.jpg"
-    }
+    },
+    "deep": {
+      "src": "photos/deep/DSC05426-profondeur.jpg",
+      "filename": "DSC05426-profondeur.jpg"
+    },
+    "deepStatus": "ready"
   },
   {
     "id": 37,
@@ -491,7 +647,12 @@ window.AXELLE_PHOTOS = [
     "edited": {
       "src": "photos/edited/DSC05419-retouche.jpg",
       "filename": "DSC05419-retouche.jpg"
-    }
+    },
+    "deep": {
+      "src": "photos/deep/DSC05419-profondeur.jpg",
+      "filename": "DSC05419-profondeur.jpg"
+    },
+    "deepStatus": "ready"
   },
   {
     "id": 38,
@@ -505,7 +666,12 @@ window.AXELLE_PHOTOS = [
     "edited": {
       "src": "photos/edited/DSC05418-retouche.jpg",
       "filename": "DSC05418-retouche.jpg"
-    }
+    },
+    "deep": {
+      "src": "photos/deep/DSC05418-profondeur.jpg",
+      "filename": "DSC05418-profondeur.jpg"
+    },
+    "deepStatus": "ready"
   },
   {
     "id": 39,
@@ -519,7 +685,12 @@ window.AXELLE_PHOTOS = [
     "edited": {
       "src": "photos/edited/DSC05415-retouche.jpg",
       "filename": "DSC05415-retouche.jpg"
-    }
+    },
+    "deep": {
+      "src": "photos/deep/DSC05415-profondeur.jpg",
+      "filename": "DSC05415-profondeur.jpg"
+    },
+    "deepStatus": "ready"
   },
   {
     "id": 40,
@@ -533,7 +704,12 @@ window.AXELLE_PHOTOS = [
     "edited": {
       "src": "photos/edited/DSC05412-retouche.jpg",
       "filename": "DSC05412-retouche.jpg"
-    }
+    },
+    "deep": {
+      "src": "photos/deep/DSC05412-profondeur.jpg",
+      "filename": "DSC05412-profondeur.jpg"
+    },
+    "deepStatus": "ready"
   },
   {
     "id": 41,
@@ -547,7 +723,12 @@ window.AXELLE_PHOTOS = [
     "edited": {
       "src": "photos/edited/DSC05411-retouche.jpg",
       "filename": "DSC05411-retouche.jpg"
-    }
+    },
+    "deep": {
+      "src": "photos/deep/DSC05411-profondeur.jpg",
+      "filename": "DSC05411-profondeur.jpg"
+    },
+    "deepStatus": "ready"
   },
   {
     "id": 42,
@@ -561,7 +742,12 @@ window.AXELLE_PHOTOS = [
     "edited": {
       "src": "photos/edited/DSC05408-retouche.jpg",
       "filename": "DSC05408-retouche.jpg"
-    }
+    },
+    "deep": {
+      "src": "photos/deep/DSC05408-profondeur.jpg",
+      "filename": "DSC05408-profondeur.jpg"
+    },
+    "deepStatus": "ready"
   },
   {
     "id": 43,
@@ -575,7 +761,12 @@ window.AXELLE_PHOTOS = [
     "edited": {
       "src": "photos/edited/DSC05406-retouche.jpg",
       "filename": "DSC05406-retouche.jpg"
-    }
+    },
+    "deep": {
+      "src": "photos/deep/DSC05406-profondeur.jpg",
+      "filename": "DSC05406-profondeur.jpg"
+    },
+    "deepStatus": "ready"
   },
   {
     "id": 44,
@@ -589,7 +780,12 @@ window.AXELLE_PHOTOS = [
     "edited": {
       "src": "photos/edited/DSC05405-retouche.jpg",
       "filename": "DSC05405-retouche.jpg"
-    }
+    },
+    "deep": {
+      "src": "photos/deep/DSC05405-profondeur.jpg",
+      "filename": "DSC05405-profondeur.jpg"
+    },
+    "deepStatus": "ready"
   },
   {
     "id": 45,
@@ -603,7 +799,12 @@ window.AXELLE_PHOTOS = [
     "edited": {
       "src": "photos/edited/DSC05400-retouche.jpg",
       "filename": "DSC05400-retouche.jpg"
-    }
+    },
+    "deep": {
+      "src": "photos/deep/DSC05400-profondeur.jpg",
+      "filename": "DSC05400-profondeur.jpg"
+    },
+    "deepStatus": "ready"
   },
   {
     "id": 46,
@@ -617,7 +818,12 @@ window.AXELLE_PHOTOS = [
     "edited": {
       "src": "photos/edited/DSC05396-retouche.jpg",
       "filename": "DSC05396-retouche.jpg"
-    }
+    },
+    "deep": {
+      "src": "photos/deep/DSC05396-profondeur.jpg",
+      "filename": "DSC05396-profondeur.jpg"
+    },
+    "deepStatus": "ready"
   },
   {
     "id": 47,
@@ -631,7 +837,12 @@ window.AXELLE_PHOTOS = [
     "edited": {
       "src": "photos/edited/DSC05392-retouche.jpg",
       "filename": "DSC05392-retouche.jpg"
-    }
+    },
+    "deep": {
+      "src": "photos/deep/DSC05392-profondeur.jpg",
+      "filename": "DSC05392-profondeur.jpg"
+    },
+    "deepStatus": "ready"
   },
   {
     "id": 48,
@@ -645,7 +856,12 @@ window.AXELLE_PHOTOS = [
     "edited": {
       "src": "photos/edited/DSC05385-retouche.jpg",
       "filename": "DSC05385-retouche.jpg"
-    }
+    },
+    "deep": {
+      "src": "photos/deep/DSC05385-profondeur.jpg",
+      "filename": "DSC05385-profondeur.jpg"
+    },
+    "deepStatus": "ready"
   },
   {
     "id": 49,
@@ -659,7 +875,12 @@ window.AXELLE_PHOTOS = [
     "edited": {
       "src": "photos/edited/DSC05384-retouche.jpg",
       "filename": "DSC05384-retouche.jpg"
-    }
+    },
+    "deep": {
+      "src": "photos/deep/DSC05384-profondeur.jpg",
+      "filename": "DSC05384-profondeur.jpg"
+    },
+    "deepStatus": "ready"
   },
   {
     "id": 50,
@@ -673,7 +894,12 @@ window.AXELLE_PHOTOS = [
     "edited": {
       "src": "photos/edited/DSC05382-retouche.jpg",
       "filename": "DSC05382-retouche.jpg"
-    }
+    },
+    "deep": {
+      "src": "photos/deep/DSC05382-profondeur.jpg",
+      "filename": "DSC05382-profondeur.jpg"
+    },
+    "deepStatus": "ready"
   },
   {
     "id": 51,
@@ -687,7 +913,12 @@ window.AXELLE_PHOTOS = [
     "edited": {
       "src": "photos/edited/DSC05380-retouche.jpg",
       "filename": "DSC05380-retouche.jpg"
-    }
+    },
+    "deep": {
+      "src": "photos/deep/DSC05380-profondeur.jpg",
+      "filename": "DSC05380-profondeur.jpg"
+    },
+    "deepStatus": "ready"
   },
   {
     "id": 52,
@@ -701,7 +932,12 @@ window.AXELLE_PHOTOS = [
     "edited": {
       "src": "photos/edited/DSC05377-retouche.jpg",
       "filename": "DSC05377-retouche.jpg"
-    }
+    },
+    "deep": {
+      "src": "photos/deep/DSC05377-profondeur.jpg",
+      "filename": "DSC05377-profondeur.jpg"
+    },
+    "deepStatus": "ready"
   },
   {
     "id": 53,
@@ -715,7 +951,12 @@ window.AXELLE_PHOTOS = [
     "edited": {
       "src": "photos/edited/DSC05348-retouche.jpg",
       "filename": "DSC05348-retouche.jpg"
-    }
+    },
+    "deep": {
+      "src": "photos/deep/DSC05348-profondeur.jpg",
+      "filename": "DSC05348-profondeur.jpg"
+    },
+    "deepStatus": "ready"
   },
   {
     "id": 54,
@@ -729,7 +970,12 @@ window.AXELLE_PHOTOS = [
     "edited": {
       "src": "photos/edited/DSC05347-retouche.jpg",
       "filename": "DSC05347-retouche.jpg"
-    }
+    },
+    "deep": {
+      "src": "photos/deep/DSC05347-profondeur.jpg",
+      "filename": "DSC05347-profondeur.jpg"
+    },
+    "deepStatus": "ready"
   },
   {
     "id": 55,
@@ -743,7 +989,12 @@ window.AXELLE_PHOTOS = [
     "edited": {
       "src": "photos/edited/DSC05339-retouche.jpg",
       "filename": "DSC05339-retouche.jpg"
-    }
+    },
+    "deep": {
+      "src": "photos/deep/DSC05339-profondeur.jpg",
+      "filename": "DSC05339-profondeur.jpg"
+    },
+    "deepStatus": "ready"
   },
   {
     "id": 56,
@@ -757,7 +1008,12 @@ window.AXELLE_PHOTOS = [
     "edited": {
       "src": "photos/edited/DSC05331-retouche.jpg",
       "filename": "DSC05331-retouche.jpg"
-    }
+    },
+    "deep": {
+      "src": "photos/deep/DSC05331-profondeur.jpg",
+      "filename": "DSC05331-profondeur.jpg"
+    },
+    "deepStatus": "ready"
   },
   {
     "id": 57,
@@ -771,7 +1027,12 @@ window.AXELLE_PHOTOS = [
     "edited": {
       "src": "photos/edited/DSC05328-retouche.jpg",
       "filename": "DSC05328-retouche.jpg"
-    }
+    },
+    "deep": {
+      "src": "photos/deep/DSC05328-profondeur.jpg",
+      "filename": "DSC05328-profondeur.jpg"
+    },
+    "deepStatus": "ready"
   },
   {
     "id": 58,
@@ -785,7 +1046,12 @@ window.AXELLE_PHOTOS = [
     "edited": {
       "src": "photos/edited/DSC05322-retouche.jpg",
       "filename": "DSC05322-retouche.jpg"
-    }
+    },
+    "deep": {
+      "src": "photos/deep/DSC05322-profondeur.jpg",
+      "filename": "DSC05322-profondeur.jpg"
+    },
+    "deepStatus": "ready"
   },
   {
     "id": 59,
@@ -799,7 +1065,12 @@ window.AXELLE_PHOTOS = [
     "edited": {
       "src": "photos/edited/DSC05316-retouche.jpg",
       "filename": "DSC05316-retouche.jpg"
-    }
+    },
+    "deep": {
+      "src": "photos/deep/DSC05316-profondeur.jpg",
+      "filename": "DSC05316-profondeur.jpg"
+    },
+    "deepStatus": "ready"
   },
   {
     "id": 60,
@@ -813,7 +1084,12 @@ window.AXELLE_PHOTOS = [
     "edited": {
       "src": "photos/edited/DSC05305-retouche.jpg",
       "filename": "DSC05305-retouche.jpg"
-    }
+    },
+    "deep": {
+      "src": "photos/deep/DSC05305-profondeur.jpg",
+      "filename": "DSC05305-profondeur.jpg"
+    },
+    "deepStatus": "ready"
   },
   {
     "id": 61,
@@ -827,7 +1103,12 @@ window.AXELLE_PHOTOS = [
     "edited": {
       "src": "photos/edited/DSC05300-retouche.jpg",
       "filename": "DSC05300-retouche.jpg"
-    }
+    },
+    "deep": {
+      "src": "photos/deep/DSC05300-profondeur.jpg",
+      "filename": "DSC05300-profondeur.jpg"
+    },
+    "deepStatus": "ready"
   },
   {
     "id": 62,
@@ -841,7 +1122,12 @@ window.AXELLE_PHOTOS = [
     "edited": {
       "src": "photos/edited/DSC05298-retouche.jpg",
       "filename": "DSC05298-retouche.jpg"
-    }
+    },
+    "deep": {
+      "src": "photos/deep/DSC05298-profondeur.jpg",
+      "filename": "DSC05298-profondeur.jpg"
+    },
+    "deepStatus": "ready"
   },
   {
     "id": 63,
@@ -855,7 +1141,12 @@ window.AXELLE_PHOTOS = [
     "edited": {
       "src": "photos/edited/DSC05291-retouche.jpg",
       "filename": "DSC05291-retouche.jpg"
-    }
+    },
+    "deep": {
+      "src": "photos/deep/DSC05291-profondeur.jpg",
+      "filename": "DSC05291-profondeur.jpg"
+    },
+    "deepStatus": "ready"
   },
   {
     "id": 64,
@@ -869,7 +1160,12 @@ window.AXELLE_PHOTOS = [
     "edited": {
       "src": "photos/edited/DSC05288-retouche.jpg",
       "filename": "DSC05288-retouche.jpg"
-    }
+    },
+    "deep": {
+      "src": "photos/deep/DSC05288-profondeur.jpg",
+      "filename": "DSC05288-profondeur.jpg"
+    },
+    "deepStatus": "ready"
   },
   {
     "id": 65,
@@ -883,7 +1179,12 @@ window.AXELLE_PHOTOS = [
     "edited": {
       "src": "photos/edited/DSC05275-retouche.jpg",
       "filename": "DSC05275-retouche.jpg"
-    }
+    },
+    "deep": {
+      "src": "photos/deep/DSC05275-profondeur.jpg",
+      "filename": "DSC05275-profondeur.jpg"
+    },
+    "deepStatus": "ready"
   },
   {
     "id": 66,
@@ -897,7 +1198,12 @@ window.AXELLE_PHOTOS = [
     "edited": {
       "src": "photos/edited/DSC05272-retouche.jpg",
       "filename": "DSC05272-retouche.jpg"
-    }
+    },
+    "deep": {
+      "src": "photos/deep/DSC05272-profondeur.jpg",
+      "filename": "DSC05272-profondeur.jpg"
+    },
+    "deepStatus": "ready"
   },
   {
     "id": 67,
@@ -911,7 +1217,12 @@ window.AXELLE_PHOTOS = [
     "edited": {
       "src": "photos/edited/DSC05269-retouche.jpg",
       "filename": "DSC05269-retouche.jpg"
-    }
+    },
+    "deep": {
+      "src": "photos/deep/DSC05269-profondeur.jpg",
+      "filename": "DSC05269-profondeur.jpg"
+    },
+    "deepStatus": "ready"
   },
   {
     "id": 68,
@@ -925,7 +1236,12 @@ window.AXELLE_PHOTOS = [
     "edited": {
       "src": "photos/edited/DSC05264-retouche.jpg",
       "filename": "DSC05264-retouche.jpg"
-    }
+    },
+    "deep": {
+      "src": "photos/deep/DSC05264-profondeur.jpg",
+      "filename": "DSC05264-profondeur.jpg"
+    },
+    "deepStatus": "ready"
   },
   {
     "id": 69,
@@ -939,7 +1255,12 @@ window.AXELLE_PHOTOS = [
     "edited": {
       "src": "photos/edited/DSC05261-retouche.jpg",
       "filename": "DSC05261-retouche.jpg"
-    }
+    },
+    "deep": {
+      "src": "photos/deep/DSC05261-profondeur.jpg",
+      "filename": "DSC05261-profondeur.jpg"
+    },
+    "deepStatus": "ready"
   },
   {
     "id": 70,
@@ -953,7 +1274,12 @@ window.AXELLE_PHOTOS = [
     "edited": {
       "src": "photos/edited/DSC05259-retouche.jpg",
       "filename": "DSC05259-retouche.jpg"
-    }
+    },
+    "deep": {
+      "src": "photos/deep/DSC05259-profondeur.jpg",
+      "filename": "DSC05259-profondeur.jpg"
+    },
+    "deepStatus": "ready"
   },
   {
     "id": 71,
@@ -967,7 +1293,12 @@ window.AXELLE_PHOTOS = [
     "edited": {
       "src": "photos/edited/DSC05250-retouche.jpg",
       "filename": "DSC05250-retouche.jpg"
-    }
+    },
+    "deep": {
+      "src": "photos/deep/DSC05250-profondeur.jpg",
+      "filename": "DSC05250-profondeur.jpg"
+    },
+    "deepStatus": "ready"
   },
   {
     "id": 72,
@@ -981,7 +1312,12 @@ window.AXELLE_PHOTOS = [
     "edited": {
       "src": "photos/edited/DSC05245-retouche.jpg",
       "filename": "DSC05245-retouche.jpg"
-    }
+    },
+    "deep": {
+      "src": "photos/deep/DSC05245-profondeur.jpg",
+      "filename": "DSC05245-profondeur.jpg"
+    },
+    "deepStatus": "ready"
   },
   {
     "id": 73,
@@ -995,7 +1331,12 @@ window.AXELLE_PHOTOS = [
     "edited": {
       "src": "photos/edited/DSC05240-retouche.jpg",
       "filename": "DSC05240-retouche.jpg"
-    }
+    },
+    "deep": {
+      "src": "photos/deep/DSC05240-profondeur.jpg",
+      "filename": "DSC05240-profondeur.jpg"
+    },
+    "deepStatus": "ready"
   },
   {
     "id": 74,
@@ -1009,6 +1350,11 @@ window.AXELLE_PHOTOS = [
     "edited": {
       "src": "photos/edited/DSC05237-retouche.jpg",
       "filename": "DSC05237-retouche.jpg"
-    }
+    },
+    "deep": {
+      "src": "photos/deep/DSC05237-profondeur.jpg",
+      "filename": "DSC05237-profondeur.jpg"
+    },
+    "deepStatus": "ready"
   }
 ];

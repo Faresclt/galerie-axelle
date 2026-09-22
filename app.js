@@ -4,6 +4,7 @@ const el = id => document.getElementById(id);
 const dialog = el('viewer');
 let currentPhoto = null;
 let currentVersion = 'original';
+const versionNames = { original: 'Original', edited: 'Retouche légère', deep: 'Retouche en profondeur' };
 
 function imagePath(src) {
   if (typeof src !== 'string') throw new Error('Chemin image manquant');
@@ -18,12 +19,13 @@ function setVersion(version) {
   if (!asset) return;
   currentVersion = version;
   el('viewer-image').src = imagePath(asset.src);
-  el('viewer-image').alt = `${currentPhoto.title} — ${version === 'original' ? 'original' : 'retouche IA'}`;
+  el('viewer-image').alt = `${currentPhoto.title} — ${versionNames[version]}`;
   el('download').href = imagePath(asset.src);
   el('download').download = asset.filename;
   el('open-image').href = imagePath(asset.src);
   el('show-original').setAttribute('aria-pressed', String(version === 'original'));
   el('show-edited').setAttribute('aria-pressed', String(version === 'edited'));
+  el('show-deep').setAttribute('aria-pressed', String(version === 'deep'));
   el('share-status').textContent = '';
 }
 
@@ -31,6 +33,7 @@ function openPhoto(photo, version) {
   currentPhoto = photo;
   el('viewer-title').textContent = photo.title;
   el('show-edited').disabled = !photo.edited;
+  el('show-deep').disabled = !photo.deep;
   setVersion(version);
   dialog.showModal();
 }
@@ -42,11 +45,11 @@ function figure(photo, version) {
   if (asset) {
     const button = document.createElement('button');
     button.className = 'photo-button';
-    button.setAttribute('aria-label', `Agrandir ${photo.title}, ${version === 'original' ? 'original' : 'retouche IA'}`);
+    button.setAttribute('aria-label', `Agrandir ${photo.title}, ${versionNames[version]}`);
     button.addEventListener('click', () => openPhoto(photo, version));
     const img = document.createElement('img');
     img.src = imagePath(asset.src);
-    img.alt = `${photo.title} — ${version === 'original' ? 'original' : 'retouche IA'}`;
+    img.alt = `${photo.title} — ${versionNames[version]}`;
     img.loading = 'lazy';
     img.decoding = 'async';
     button.append(img);
@@ -54,19 +57,20 @@ function figure(photo, version) {
   } else {
     const pending = document.createElement('div');
     pending.className = 'pending';
-    pending.textContent = photo.retouchStatus === 'unavailable' ? 'Retouche indisponible · original conservé' : 'Retouche en attente';
+    const status = version === 'deep' ? photo.deepStatus : photo.retouchStatus;
+    pending.textContent = status === 'unavailable' ? 'Retouche indisponible · original conservé' : 'Retouche en cours';
     result.append(pending);
   }
   const caption = document.createElement('figcaption');
   const label = document.createElement('span');
-  label.textContent = version === 'original' ? '01 / ORIGINAL' : '02 / RETOUCHE IA';
+  label.textContent = `${{ original: '01', edited: '02', deep: '03' }[version]} / ${versionNames[version].toLocaleUpperCase('fr')}`;
   caption.append(label);
   if (asset) {
     const link = document.createElement('a');
     link.href = imagePath(asset.src);
     link.download = asset.filename;
     link.textContent = '↓';
-    link.setAttribute('aria-label', `Télécharger ${photo.title}, ${version === 'original' ? 'original' : 'retouche IA'}`);
+    link.setAttribute('aria-label', `Télécharger ${photo.title}, ${versionNames[version]}`);
     caption.append(link);
   }
   result.append(caption);
@@ -75,7 +79,7 @@ function figure(photo, version) {
 
 function render() {
   const query = el('search').value.trim().toLocaleLowerCase('fr');
-  const visible = photos.filter(photo => `${photo.id} ${photo.title}`.toLocaleLowerCase('fr').includes(query) && (el('filter').value !== 'ready' || photo.edited));
+  const visible = photos.filter(photo => `${photo.id} ${photo.title}`.toLocaleLowerCase('fr').includes(query) && (el('filter').value !== 'ready' || photo.edited) && (el('filter').value !== 'deep' || photo.deep));
   const fragment = document.createDocumentFragment();
   for (const photo of visible) {
     const card = document.createElement('article');
@@ -90,7 +94,7 @@ function render() {
     const pair = document.createElement('div');
     pair.className = 'pair';
     pair.style.setProperty('--photo-ratio', photo.orientation === 'P' ? '2 / 3' : '3 / 2');
-    pair.append(figure(photo, 'original'), figure(photo, 'edited'));
+    pair.append(figure(photo, 'original'), figure(photo, 'edited'), figure(photo, 'deep'));
     card.append(top, pair);
     fragment.append(card);
   }
@@ -109,6 +113,7 @@ dialog.addEventListener('click', event => {
 });
 el('show-original').addEventListener('click', () => setVersion('original'));
 el('show-edited').addEventListener('click', () => setVersion('edited'));
+el('show-deep').addEventListener('click', () => setVersion('deep'));
 el('share').addEventListener('click', async () => {
   const asset = currentPhoto[currentVersion];
   if (!navigator.share || !navigator.canShare) {
@@ -129,5 +134,12 @@ el('share').addEventListener('click', async () => {
 });
 el('toolbar').hidden = photos.length === 0;
 el('empty').hidden = photos.length !== 0;
-if (photos.length) el('total').textContent = `${photos.length} FAVORIS · ${photos.filter(photo => photo.edited).length} RETOUCHES`;
+if (photos.length) {
+  const deepCount = photos.filter(photo => photo.deep).length;
+  const deepUnavailable = photos.filter(photo => photo.deepStatus === 'unavailable').length;
+  el('total').textContent = `${photos.length} FAVORIS · ${photos.filter(photo => photo.edited).length} RETOUCHES LÉGÈRES · ${deepCount} EN PROFONDEUR`;
+  el('deep-archive').hidden = deepCount === 0;
+  el('deep-archive').textContent = `↓ Les ${deepCount} retouches en profondeur · ZIP`;
+  el('processing-note').textContent = `${deepCount} retouches en profondeur disponibles.${deepUnavailable ? ` ${deepUnavailable} retouches en profondeur n’ont pas pu être générées.` : ''} Les 74 originaux et les 65 retouches légères sont conservés.`;
+}
 render();
